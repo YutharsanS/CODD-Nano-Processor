@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Register Bank/Register Bank.srcs/sources_1/new/Register_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Register Bank/Register Bank.srcs/sources_1/new/Register_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_4
