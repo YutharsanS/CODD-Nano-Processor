@@ -12,7 +12,8 @@ entity D_FF is
 end D_FF;
 
 architecture Behavioral of D_FF is
-
+  signal Q_reg    : std_logic := '0';
+  signal Qbar_reg : std_logic := '1';
 begin
 
   process (Clk) is
@@ -20,14 +21,16 @@ begin
 
     if rising_edge(Clk) then
       if Res = '1' then
-        Q    <= '0';
-        Qbar <= '1';
+        Q_reg    <= '0';
+        Qbar_reg <= '1';
       else
-        Q    <= D;
-        Qbar <= not D;
+        Q_reg    <= D;
+        Qbar_reg <= not D;
       end if;
     end if;
-
   end process;
+
+  Q    <= Q_reg;
+  Qbar <= Qbar_reg;
 
 end Behavioral;

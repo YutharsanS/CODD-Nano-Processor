@@ -25,6 +25,8 @@ architecture Behavioral of Register_4 is
     );
   end component;
 
+signal Q_temp : std_logic_vector(3 downto 0);
+
 begin
 
   Reg_0 : Register_1
@@ -34,7 +36,7 @@ begin
     En    => En,
     Clk   => Clk,
     Reset => Reset,
-    Q     => Q(0)
+    Q     => Q_temp(0)
   );
 
   Reg_1 : Register_1
@@ -44,7 +46,7 @@ begin
   En    => En,
   Clk   => Clk,
   Reset => Reset,
-  Q     => Q(1)
+  Q     => Q_temp(1)
   );
 
   Reg_2 : Register_1
@@ -54,7 +56,7 @@ begin
   En    => En,
   Clk   => Clk,
   Reset => Reset,
-  Q     => Q(2)
+  Q     => Q_temp(2)
   );
 
   Reg_3 : Register_1
@@ -64,7 +66,9 @@ begin
   En    => En,
   Clk   => Clk,
   Reset => Reset,
-  Q     => Q(3)
+  Q     => Q_temp(3)
   );
+  
+  Q <= Q_temp;
 
 end Behavioral;

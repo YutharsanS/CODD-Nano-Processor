@@ -30,13 +30,14 @@ architecture Behavioral of Register_Bank_8 is
       Y  : out std_logic_vector (7 downto 0));
   end component;
 
-  component Reg -- Register
+  component Register_4 -- Register
     port
     (
-      D   : in std_logic_vector(3 downto 0);
-      En  : in std_logic;
-      Clk : in std_logic;
-      Q   : out std_logic_vector(3 downto 0)
+      D     : in std_logic_vector(3 downto 0);
+      En    : in std_logic;
+      Clk   : in std_logic;
+      Reset : in std_logic;
+      Q     : out std_logic_vector(3 downto 0)
     );
   end component;
 
@@ -50,75 +51,83 @@ begin
     En => En,
     Y  => d_out
   );
-  Register_0 : Reg
+  Register0 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(0),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out0
   );
 
-  Register_1 : Reg
+  Register1 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(1),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out1
   );
 
-  Register_2 : Reg
+  Register2 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(2),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out2
   );
 
-  Register_3 : Reg
+  Register3 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(3),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out3
   );
 
-  Register_4 : Reg
+  Register4 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(4),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out4
   );
 
-  Register_5 : Reg
+  Register5 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(5),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out5
   );
 
-  Register_6 : Reg
+  Register6 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(6),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out6
   );
 
-  Register_7 : Reg
+  Register7 : Register_4
   port
   map (
   D   => Data,
   En  => d_out(7),
   Clk => Clk,
+  Reset => Reset,
   Q   => Out7
   );
 

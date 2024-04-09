@@ -34,7 +34,7 @@ architecture Behavioral of Register_1 is
     );
   end component;
 
-  signal Q_temp  : std_logic := '0';
+  signal Q_temp  : std_logic;
   signal mux_out : std_logic;
 
 begin
