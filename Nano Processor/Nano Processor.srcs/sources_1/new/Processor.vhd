@@ -102,6 +102,27 @@ architecture Behavioral of Processor is
     );
   end component;
 
+  component Instruction_Decoder_12
+    port
+    (
+      I : in std_logic_vector(11 downto 0);
+      Reg_Check : in std_logic_vector(3 downto 0);
+      Reg_EN : out std_logic_vector(2 downto 0);
+      Load_Sel : out std_logic;
+      Reg_1 : out std_logic_vector(2 downto 0);
+      Reg_2 : out std_logic_vector(2 downto 0);
+      AU_Ins : out std_logic;
+      Jump_Flag : out std_logic;
+      Jump_Addr : out std_logic_vector(2 downto 0);
+      Imd_Val : out std_logic_vector(3 downto 0);
+      RB_En : out std_logic
+    );
+  end component;
+
 begin
+
+  PC : Program_Counter_3
+
+
 
 end Behavioral;
