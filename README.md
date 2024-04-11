@@ -1,43 +1,27 @@
-# CODD-Nano-Processor
-
 # Components that are available now
 
-<details>
-<summary>Register Bank</summary>
-  
-### Register Bank
-#### Ports
+## Register Bank
 
-| Port name | Direction | Type                         | Description |
-| --------- | --------- | ---------------------------- | ----------- |
-| Data      | in        | std_logic_vector(3 downto 0) |             |
-| Reg_En    | in        | std_logic_vector(2 downto 0) |             |
-| En        | in        | std_logic                    |             |
-| Clk       | in        | std_logic                    |             |
-| Out0      | out       | std_logic_vector(3 downto 0) |             |
-| Out1      | out       | std_logic_vector(3 downto 0) |             |
-| Out2      | out       | std_logic_vector(3 downto 0) |             |
-| Out3      | out       | std_logic_vector(3 downto 0) |             |
-| Out4      | out       | std_logic_vector(3 downto 0) |             |
-| Out5      | out       | std_logic_vector(3 downto 0) |             |
-| Out6      | out       | std_logic_vector(3 downto 0) |             |
-| Out7      | out       | std_logic_vector(3 downto 0) |             |
+- Uses Registers internally.
+- Registers are not abstract designs (as we did for the lab), but rather implemented using DFF and multiplexors.
+- DFF is an abstract design (based on my research, there's no other option).
+- The reset port assigns **all** registers the value 0. (Maybe they want us to control individual registers; I have to clarify.)
 
-#### Signals
+## 4-bit Register
+- Made up of four 1-bit registers.
+- Each register can be reset to the value of 0, so this entity can also be reset to "0000."
 
-| Name  | Type                         | Description |
-| ----- | ---------------------------- | ----------- |
-| d_out | std_logic_vector(7 downto 0) |             |
+## 1-bit Register
+- Ecapsulates a 2-way-1-bit multiplexor and DFF.
+- Reset is connected to the reset of the DFF.
 
-#### Instantiations
+## DFF
+- Abstract design (almost the same as what we used in the lab)
+- But to prevent the initial undefined condition, the outputs are initially loaded with values (Q = 0).
 
-- Decoder_0: Decoder_3_to_8
-- Register_0: Reg
-- Register_1: Reg
-- Register_2: Reg
-- Register_3: Reg
-- Register_4: Reg
-- Register_5: Reg
-- Register_6: Reg
-- Register_7: Reg
-</details>
+## 2-way-1-bit multiplexor
+- Since it's a simple one, it's implemented using primitive logical gates rather than the decoder.
+
+## Program Counter
+- Encapsulates a 3-bit register
+- The register always **loads** some value, either the next instruction or the jump instruction; so, the EN port is set to '1'.
