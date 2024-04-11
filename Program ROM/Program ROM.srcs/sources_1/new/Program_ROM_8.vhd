@@ -6,7 +6,7 @@ entity Program_ROM_8 is
   port
   (
     M    : in std_logic_vector(2 downto 0);
-    I    : out std_logic_vector(11 downto 0);
+    I    : out std_logic_vector(11 downto 0)
   );
 end Program_ROM_8;
 
