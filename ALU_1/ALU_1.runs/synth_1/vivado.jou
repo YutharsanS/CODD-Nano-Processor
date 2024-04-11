@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Apr  8 23:04:53 2024
+# Process ID: 21284
+# Current directory: E:/Vivado projects/Nanoprocessor/ALU_1/ALU_1.runs/synth_1
+# Command line: vivado.exe -log FA.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source FA.tcl
+# Log file: E:/Vivado projects/Nanoprocessor/ALU_1/ALU_1.runs/synth_1/FA.vds
+# Journal file: E:/Vivado projects/Nanoprocessor/ALU_1/ALU_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FA.tcl -notrace
