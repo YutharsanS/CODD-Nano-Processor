@@ -25,7 +25,7 @@ architecture Behavioral of Register_3 is
     );
   end component;
 
-signal Q_temp : std_logic_vector(11 downto 0);
+signal Q_temp : std_logic_vector(2 downto 0);
 
 begin
 
