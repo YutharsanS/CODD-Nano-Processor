@@ -1,24 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 08.04.2024 23:06:19
--- Design Name: 
--- Module Name: ADD_SUB - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -26,10 +5,10 @@ entity ADD_SUB is
     Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
            B : in STD_LOGIC_VECTOR (3 downto 0);
            Ctrl : in STD_LOGIC;
-           C_in : in STD_LOGIC;
            C_out : out STD_LOGIC;
            S : out STD_LOGIC_VECTOR (3 downto 0);
-           V : out STD_LOGIC);
+           V : out STD_LOGIC;
+           Z : out STD_LOGIC );
 end ADD_SUB;
 
 architecture Behavioral of ADD_SUB is
@@ -44,6 +23,7 @@ end component;
 
 signal FA0_C, FA1_C, FA2_C, FA3_C : STD_LOGIC;
 signal temp : STD_LOGIC_VECTOR (3 downto 0);
+signal S0, S1, S2, S3 : std_logic;
 
 begin
 
@@ -57,7 +37,7 @@ FA_0 : FA
     A => A(0),
     B => temp(0),
     C_in => Ctrl,
-    S => S(0),
+    S => S0,
     C_out => FA0_C );
     
 FA_1 : FA
@@ -65,7 +45,7 @@ FA_1 : FA
     A => A(1),
     B => temp(1),
     C_in => FA0_C,
-    S => S(1),
+    S => S1,
     C_out => FA1_C );
         
 FA_2 : FA
@@ -73,7 +53,7 @@ FA_2 : FA
     A => A(2),
     B => temp(2),
     C_in => FA1_C,
-    S => S(2),
+    S => S2,
     C_out => FA2_C);
     
 FA_3 : FA
@@ -81,12 +61,16 @@ FA_3 : FA
     A => A(3),
     B => temp(3),
     C_in => FA2_C,
-    S => S(3),
+    S => S3,
     C_out => FA3_C);
     
 C_out <= FA3_C;
-C_out <= FA3_C;
 V <= FA3_C XOR FA2_C;
+Z <= not(S0 or S1 or S2 or S3 or FA3_C);
 
+S(0) <= S0;
+S(1) <= S1;
+S(2) <= S2;
+S(3) <= S3;
 
 end Behavioral;
