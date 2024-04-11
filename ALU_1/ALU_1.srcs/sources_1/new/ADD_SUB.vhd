@@ -26,7 +26,6 @@ entity ADD_SUB is
     Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
            B : in STD_LOGIC_VECTOR (3 downto 0);
            Ctrl : in STD_LOGIC;
-           C_in : in STD_LOGIC;
            C_out : out STD_LOGIC;
            S : out STD_LOGIC_VECTOR (3 downto 0);
            V : out STD_LOGIC
