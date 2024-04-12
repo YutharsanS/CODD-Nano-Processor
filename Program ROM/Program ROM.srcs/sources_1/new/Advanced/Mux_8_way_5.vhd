@@ -1,24 +1,24 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
-entity Mux_8_way_4 is
+entity Mux_8_way_5 is
   port
     (
-        D0      : in std_logic_vector(3 downto 0);
-        D1      : in std_logic_vector(3 downto 0);
-        D2      : in std_logic_vector(3 downto 0);
-        D3      : in std_logic_vector(3 downto 0);
-        D4      : in std_logic_vector(3 downto 0);
-        D5      : in std_logic_vector(3 downto 0);
-        D6      : in std_logic_vector(3 downto 0);
-        D7      : in std_logic_vector(3 downto 0);
+        D0      : in std_logic_vector(4 downto 0);
+        D1      : in std_logic_vector(4 downto 0);
+        D2      : in std_logic_vector(4 downto 0);
+        D3      : in std_logic_vector(4 downto 0);
+        D4      : in std_logic_vector(4 downto 0);
+        D5      : in std_logic_vector(4 downto 0);
+        D6      : in std_logic_vector(4 downto 0);
+        D7      : in std_logic_vector(4 downto 0);
         Sel     : in std_logic_vector(2 downto 0);
         EN      : in std_logic;
-        Y : out std_logic_vector(3 downto 0)
+        Y : out std_logic_vector(4 downto 0)
     );
-end Mux_8_way_4;
+end Mux_8_way_5;
 
-architecture Behavioral of Mux_8_way_4 is
+architecture Behavioral of Mux_8_way_5 is
     component Mux_8_way_1 
     port
         (
@@ -91,4 +91,18 @@ begin
         Y => Y(3)
     );
 
+    MUX_4 : Mux_8_way_1
+    port map(
+        D(0) => D0(4),
+        D(1) => D1(4),
+        D(2) => D2(4),
+        D(3) => D3(4),
+        D(4) => D4(4),
+        D(5) => D5(4),
+        D(6) => D6(4),
+        D(7) => D7(4),
+        Sel => Sel,
+        EN => EN,
+        Y => Y(4)
+    );
 end Behavioral;
