@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Program_ROM_8_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Program_ROM_8_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="327790974fs"></ZoomEndTime>
+      <Cursor1Time time="194774000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="98"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/Program_ROM_8_tb/M_tb" type="array">
+      <obj_property name="ElementShortName">M_tb[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_tb[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Program_ROM_8_tb/I_tb" type="array">
+      <obj_property name="ElementShortName">I_tb[11:0]</obj_property>
+      <obj_property name="ObjectShortName">I_tb[11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/Program_ROM_8_tb/program_ROM" type="array">
+      <obj_property name="ElementShortName">program_ROM[0:7][11:0]</obj_property>
+      <obj_property name="ObjectShortName">program_ROM[0:7][11:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+</wave_config>

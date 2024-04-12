@@ -22,16 +22,17 @@ architecture Behavioral of Instruction_Decoder_12 is
 
 begin
 
-  Load_Sel <= I(0); -- Selecting the load
-  AU_Ins <= I(1);
+  Load_Sel <= I(11); -- Selecting the load
+  AU_Ins <= I(10);
 
-  Reg_1 <= I(4 downto 2);
-  Reg_2 <=  I(7 downto 5);
+  Reg_1 <= I(9 downto 7);
+  Reg_EN <= I(9 downto 7);
+  Reg_2 <=  I(6 downto 4);
 
-  Imd_Val <=  I(11 downto 8);
-  Jump_Addr <=  I(11 downto 9);
+  Imd_Val <=  I(3 downto 0);
+  Jump_Addr <=  I(2 downto 0);
 
-  RB_En <=  not(I(0) and I(1));
-  Jump_Flag <=  not(Reg_Check(0) or Reg_Check(1) or Reg_Check(2) or Reg_Check(3)) and I(0) and I(1);
+  RB_En <=  not(I(10) and I(11));
+  Jump_Flag <=  not(Reg_Check(0) or Reg_Check(1) or Reg_Check(2) or Reg_Check(3)) and I(10) and I(11);
 
 end Behavioral;

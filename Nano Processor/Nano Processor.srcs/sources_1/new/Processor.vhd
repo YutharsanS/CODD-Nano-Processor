@@ -142,14 +142,14 @@ architecture Behavioral of Processor is
   signal ins                                                       : std_logic_vector(11 downto 0);
   signal mux840_out, mux841_out, au_out, imdVal, data_in           : std_logic_vector(3 downto 0);
 
-  signal Out_0 : std_logic_vector(3 downto 0);
-  signal Out_1 : std_logic_vector(3 downto 0);
-  signal Out_2 : std_logic_vector(3 downto 0);
-  signal Out_3 : std_logic_vector(3 downto 0);
-  signal Out_4 : std_logic_vector(3 downto 0);
-  signal Out_5 : std_logic_vector(3 downto 0);
-  signal Out_6 : std_logic_vector(3 downto 0);
-  signal Out_7 : std_logic_vector(3 downto 0);
+  signal Out_0 : std_logic_vector(3 downto 0);-- := (others => '0');
+  signal Out_1 : std_logic_vector(3 downto 0);-- := (others => '0');
+  signal Out_2 : std_logic_vector(3 downto 0);-- := (others => '0');
+  signal Out_3 : std_logic_vector(3 downto 0);-- := (others => '0');
+  signal Out_4 : std_logic_vector(3 downto 0);-- := (others => '0');
+  signal Out_5 : std_logic_vector(3 downto 0);-- := (others => '0');
+  signal Out_6 : std_logic_vector(3 downto 0);-- := (others => '0');
+  signal Out_7 : std_logic_vector(3 downto 0);-- := (others => '0');
 begin
 
   PC : Program_Counter_3
@@ -177,6 +177,7 @@ begin
   A    => pc_out,
   B    => "001",
   C_in => '0',
+  C_out => open,
   S    => add3_out
   );
 
@@ -212,6 +213,7 @@ begin
   A    => mux840_out,
   B    => mux841_out,
   Ctrl => auIns,
+  C_out => open,
   S    => au_out,
   V    => Overflow,
   Z    => Zero
@@ -279,5 +281,15 @@ begin
   Out6   => Out_6,
   Out7   => Out_7
   );
+
+  -- assignments
+  Out0 <= Out_0;
+  Out1 <= Out_1;
+  Out2 <= Out_2;
+  Out3 <= Out_3;
+  Out4 <= Out_4;
+  Out5 <= Out_5;
+  Out6 <= Out_6;
+  Out7 <= Out_7;
 
 end Behavioral;
