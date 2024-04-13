@@ -91,7 +91,15 @@ begin
     wait for period;
     assert Out1 = "1011" report "Addition fails for R1 = R1 + R2" severity error;
 
+    wait for 2*period;
 
+    wait for period;
+    assert Out1 = "1100" report "Addition fails for R1 = R1 + R2" severity error;
+    
+    wait for 2*period;
+
+    wait for period;
+    assert Out1 = "1101" report "Addition fails for R1 = R1 + R2" severity error;
     wait;
   end process;
 end Behavioral;
