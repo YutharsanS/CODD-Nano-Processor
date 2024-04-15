@@ -1,14 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-entity Mux_8_to_1 is
+entity Mux_8_way_1 is
     Port ( Sel : in STD_LOGIC_VECTOR (2 downto 0);
            D : in STD_LOGIC_VECTOR (7 downto 0);
            EN : in STD_LOGIC;
            Y : out STD_LOGIC);
-end Mux_8_to_1;
+end Mux_8_way_1;
 
-architecture Behavioral of Mux_8_to_1 is
+architecture Behavioral of Mux_8_way_1 is
 
 component Decoder_3_to_8 
     Port ( I : in STD_LOGIC_VECTOR (2 downto 0);
