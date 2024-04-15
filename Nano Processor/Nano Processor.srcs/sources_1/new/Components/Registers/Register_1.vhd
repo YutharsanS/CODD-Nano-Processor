@@ -56,7 +56,8 @@ begin
   D   => mux_out,
   Res => Reset,
   Clk => Clk,
-  Q   => Q_temp
+  Q   => Q_temp,
+  Qbar => open
   );
 
 end Behavioral;

@@ -210,8 +210,8 @@ begin
   port
   map
   (
-  A    => mux840_out,
-  B    => mux841_out,
+  A    => mux841_out,
+  B    => mux840_out,
   Ctrl => auIns,
   C_out => open,
   S    => au_out,

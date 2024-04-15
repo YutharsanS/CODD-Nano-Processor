@@ -40,7 +40,7 @@ architecture Behavioral of TB_Processor is
   signal Zero     : std_logic;
   signal Overflow : std_logic;
 
-  constant period : time := 40 ns;
+  constant period : time := 20 ns;
 
 begin
 
@@ -77,7 +77,6 @@ begin
     -- Release reset
     PC_Reset <= '0';
     RB_Reset <= '0';
-    wait for period;
 
     wait for period;
     assert Out1 = "1010" report "Move fails for R1" severity error;
@@ -86,20 +85,20 @@ begin
     assert Out2 = "0001" report "Move fails for R2" severity error;
 
     wait for period;
-    assert Out2 = "0001" report "Subtraction fails for R2 - 0" severity error;
+    assert Out2 = "1111" report "Negation fails for R2" severity error;
 
     wait for period;
-    assert Out1 = "1011" report "Addition fails for R1 = R1 + R2" severity error;
+    assert Out1 = "1001" report "Addition fails for R1 = R1 + R2" severity error;
 
     wait for 2*period;
 
     wait for period;
-    assert Out1 = "1100" report "Addition fails for R1 = R1 + R2" severity error;
+    assert Out1 = "1000" report "Addition fails for R1 = R1 + R2" severity error;
     
     wait for 2*period;
 
     wait for period;
-    assert Out1 = "1101" report "Addition fails for R1 = R1 + R2" severity error;
+    assert Out1 = "0111" report "Addition fails for R1 = R1 + R2" severity error;
     wait;
   end process;
 end Behavioral;
