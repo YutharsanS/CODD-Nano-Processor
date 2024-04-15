@@ -24,40 +24,37 @@ end component;
 
 begin
 
-  MUX_0 : Mux_2_way_1(
+  MUX_0 : Mux_2_way_1
     port map(
         A => A(0),
         B => B(0),
         Sel => Sel,
         Output => Output(0)
     );
-  );
+  
 
-  MUX_1 : Mux_2_way_1(
+  MUX_1 : Mux_2_way_1
     port map(
         A => A(1),
         B => B(1),
         Sel => Sel,
         Output => Output(1)
     );
-  );
 
-  MUX_2 : Mux_2_way_1(
+  MUX_2 : Mux_2_way_1
     port map(
         A => A(2),
         B => B(2),
         Sel => Sel,
         Output => Output(2)
     );
-  );
 
-  MUX_3 : Mux_2_way_1(
+  MUX_3 : Mux_2_way_1
     port map(
         A => A(3),
         B => B(3),
         Sel => Sel,
         Output => Output(3)
     );
-  );
 
 end Behavioral;
