@@ -40,7 +40,7 @@ architecture Behavioral of TB_Processor is
   signal Zero     : std_logic;
   signal Overflow : std_logic;
 
-  constant period : time := 20 ns;
+  constant period : time := 40 ns;
 
 begin
 

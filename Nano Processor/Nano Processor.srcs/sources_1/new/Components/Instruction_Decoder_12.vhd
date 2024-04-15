@@ -14,7 +14,8 @@ entity Instruction_Decoder_12 is
     Jump_Flag : out std_logic;
     Jump_Addr : out std_logic_vector(2 downto 0);
     Imd_Val : out std_logic_vector(3 downto 0);
-    RB_En : out std_logic
+    RB_En : out std_logic;
+    swap : out std_logic
   );
 end Instruction_Decoder_12;
 
@@ -34,5 +35,7 @@ begin
 
   RB_En <=  not(I(10) and I(11));
   Jump_Flag <=  not(Reg_Check(0) or Reg_Check(1) or Reg_Check(2) or Reg_Check(3)) and I(10) and I(11);
+  
+  swap <= not(I(11)) and I(10);
 
 end Behavioral;

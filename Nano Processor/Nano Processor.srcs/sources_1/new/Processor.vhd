@@ -116,7 +116,8 @@ architecture Behavioral of Processor is
       Jump_Flag : out std_logic;
       Jump_Addr : out std_logic_vector(2 downto 0);
       Imd_Val   : out std_logic_vector(3 downto 0);
-      RB_En     : out std_logic
+      RB_En     : out std_logic;
+      swap : out std_logic
     );
   end component;
 
@@ -138,9 +139,9 @@ architecture Behavioral of Processor is
   end component;
 
   signal mux_out_23, pc_out, add3_out, jumpAddr, reg1, reg2, regEn : std_logic_vector(2 downto 0);
-  signal jumpFlag, auIns, loadSel, rbEn                            : std_logic;
+  signal jumpFlag, auIns, loadSel, rbEn, swap                            : std_logic;
   signal ins                                                       : std_logic_vector(11 downto 0);
-  signal mux840_out, mux841_out, au_out, imdVal, data_in           : std_logic_vector(3 downto 0);
+  signal mux840_out, mux841_out, au_out, imdVal, data_in, au_0, au_1           : std_logic_vector(3 downto 0);
 
   signal Out_0 : std_logic_vector(3 downto 0);-- := (others => '0');
   signal Out_1 : std_logic_vector(3 downto 0);-- := (others => '0');
@@ -195,7 +196,8 @@ begin
   Jump_Flag => jumpFlag,
   Jump_Addr => jumpAddr,
   Imd_Val   => imdVal,
-  RB_En     => rbEn
+  RB_En     => rbEn,
+  swap => swap
   );
 
   PR : Program_Rom_8
@@ -210,8 +212,8 @@ begin
   port
   map
   (
-  A    => mux841_out,
-  B    => mux840_out,
+  A    => au_0,
+  B    => au_1,
   Ctrl => auIns,
   C_out => open,
   S    => au_out,
@@ -253,7 +255,7 @@ begin
   Y   => mux841_out
   );
 
-  Mux24 : Mux_2_way_4
+  Mux24_0 : Mux_2_way_4
   port
   map
   (
@@ -261,6 +263,26 @@ begin
   B      => imdVal,
   Sel    => loadSel,
   Output => data_in
+  );
+  
+  Mux24_1 : Mux_2_way_4
+  port
+  map
+  (
+  A      => mux840_out,
+  B      => mux841_out,
+  Sel    => swap,
+  Output => au_0
+  );
+  
+  Mux24_2 : Mux_2_way_4
+  port
+  map
+  (
+  A      => mux841_out,
+  B      => mux840_out,
+  Sel    => swap,
+  Output => au_1
   );
 
   RB : Register_Bank_8
@@ -291,5 +313,5 @@ begin
   Out5 <= Out_5;
   Out6 <= Out_6;
   Out7 <= Out_7;
-
+  
 end Behavioral;
