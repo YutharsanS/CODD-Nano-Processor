@@ -56,10 +56,10 @@ begin
   port
   map
   (
-  D    => D(1),
+  D    => D(2),
   Res  => Reset,
   Clk  => regEn,
-  Q    => Q(1),
+  Q    => Q(2),
   Qbar => open
   );
 

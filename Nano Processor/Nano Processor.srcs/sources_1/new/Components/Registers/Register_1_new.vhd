@@ -33,10 +33,10 @@ begin
   DFF_0 : D_FF
   port
   map (
-  D   => mux_out,
+  D   => D,
   Res => Reset,
   Clk => regEn,
-  Q   => Q_temp,
+  Q   => Q,
   Qbar => open
   );
 

@@ -14,59 +14,55 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 17864 
+INFO: Helper process launched with PID 11756 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 359.004 ; gain = 100.539
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 358.453 ; gain = 100.008
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Processor' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:23]
 INFO: [Synth 8-3491] module 'Program_Counter_3' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd:4' bound to instance 'PC' of component 'Program_Counter_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:156]
 INFO: [Synth 8-638] synthesizing module 'Program_Counter_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd:14]
-INFO: [Synth 8-3491] module 'Register_3' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3.vhd:4' bound to instance 'Reg0' of component 'Register_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd:29]
-INFO: [Synth 8-638] synthesizing module 'Register_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3.vhd:15]
-INFO: [Synth 8-3491] module 'Register_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:4' bound to instance 'Reg_0' of component 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3.vhd:32]
-INFO: [Synth 8-638] synthesizing module 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:15]
-INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:4' bound to instance 'Mux_0' of component 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:44]
-INFO: [Synth 8-638] synthesizing module 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_1' (1#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:14]
-INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'DFF_0' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:53]
+INFO: [Synth 8-3491] module 'Register_3' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd:4' bound to instance 'Reg0' of component 'Register_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'Register_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd:15]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd:34]
 INFO: [Synth 8-638] synthesizing module 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'D_FF' (2#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:14]
-INFO: [Synth 8-256] done synthesizing module 'Register_1' (3#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:15]
-INFO: [Synth 8-3491] module 'Register_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:4' bound to instance 'Reg_1' of component 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3.vhd:42]
-INFO: [Synth 8-3491] module 'Register_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:4' bound to instance 'Reg_2' of component 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3.vhd:52]
-INFO: [Synth 8-256] done synthesizing module 'Register_3' (4#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3.vhd:15]
-INFO: [Synth 8-256] done synthesizing module 'Program_Counter_3' (5#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'D_FF' (1#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:14]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd:44]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd:55]
+INFO: [Synth 8-256] done synthesizing module 'Register_3' (2#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'Program_Counter_3' (3#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd:14]
 INFO: [Synth 8-3491] module 'Mux_2_way_3' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:4' bound to instance 'Mux23' of component 'Mux_2_way_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:165]
 INFO: [Synth 8-638] synthesizing module 'Mux_2_way_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:14]
 INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:4' bound to instance 'Mux0' of component 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:28]
+INFO: [Synth 8-638] synthesizing module 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_1' (4#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:14]
 INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:4' bound to instance 'Mux1' of component 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:37]
 INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:4' bound to instance 'Mux2' of component 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:46]
-INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_3' (6#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_3' (5#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:14]
 INFO: [Synth 8-3491] module 'ADD_3' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:4' bound to instance 'Add3' of component 'ADD_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:174]
 INFO: [Synth 8-638] synthesizing module 'ADD_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:12]
 INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_0' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:27]
 INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:33]
 INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:46]
 INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:32]
-INFO: [Synth 8-256] done synthesizing module 'HA' (7#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (6#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:32]
 INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:53]
-INFO: [Synth 8-256] done synthesizing module 'FA' (8#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'FA' (7#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:33]
 INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_1' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:35]
 INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_2' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:43]
-INFO: [Synth 8-256] done synthesizing module 'ADD_3' (9#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'ADD_3' (8#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:12]
 INFO: [Synth 8-3491] module 'Instruction_Decoder_12' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd:4' bound to instance 'Ins_Dec' of component 'Instruction_Decoder_12' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:185]
 INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder_12' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd:22]
-INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder_12' (10#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'Instruction_Decoder_12' (9#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd:22]
 INFO: [Synth 8-3491] module 'Program_ROM_8' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_ROM_8.vhd:5' bound to instance 'PR' of component 'Program_Rom_8' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:203]
 INFO: [Synth 8-638] synthesizing module 'Program_ROM_8' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_ROM_8.vhd:13]
-INFO: [Synth 8-256] done synthesizing module 'Program_ROM_8' (11#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_ROM_8.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Program_ROM_8' (10#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_ROM_8.vhd:13]
 INFO: [Synth 8-3491] module 'ADD_SUB' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:4' bound to instance 'AU' of component 'ADD_SUB' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:211]
 INFO: [Synth 8-638] synthesizing module 'ADD_SUB' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:14]
 INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_0' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:35]
 INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_1' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:43]
 INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_2' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:51]
 INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_3' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:59]
-INFO: [Synth 8-256] done synthesizing module 'ADD_SUB' (12#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'ADD_SUB' (11#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:14]
 INFO: [Synth 8-3491] module 'Mux_8_way_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:4' bound to instance 'Mux84_0' of component 'Mux_8_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:224]
 INFO: [Synth 8-638] synthesizing module 'Mux_8_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:21]
 INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_to_1.vhd:4' bound to instance 'MUX_0' of component 'Mux_8_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:34]
@@ -75,14 +71,14 @@ INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/Yutharsan/Doc
 INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd:11]
 INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_2_to_4.vhd:5' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd:27]
 INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_2_to_4.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (13#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_2_to_4.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (12#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_2_to_4.vhd:11]
 INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_2_to_4.vhd:5' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd:34]
-INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (14#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd:11]
-INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_1' (15#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_to_1.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (13#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_1' (14#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_to_1.vhd:11]
 INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_to_1.vhd:4' bound to instance 'MUX_1' of component 'Mux_8_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:49]
 INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_to_1.vhd:4' bound to instance 'MUX_2' of component 'Mux_8_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:65]
 INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_to_1.vhd:4' bound to instance 'MUX_3' of component 'Mux_8_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:81]
-INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_4' (16#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_4' (15#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:21]
 INFO: [Synth 8-3491] module 'Mux_8_way_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:4' bound to instance 'Mux84_1' of component 'Mux_8_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:241]
 INFO: [Synth 8-3491] module 'Mux_2_way_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:4' bound to instance 'Mux24_0' of component 'Mux_2_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:258]
 INFO: [Synth 8-638] synthesizing module 'Mux_2_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:14]
@@ -90,46 +86,46 @@ INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Docume
 INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:4' bound to instance 'MUX_1' of component 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:36]
 INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:4' bound to instance 'MUX_2' of component 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:45]
 INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_to_1.vhd:4' bound to instance 'MUX_3' of component 'Mux_2_way_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:54]
-INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_4' (17#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_4' (16#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:14]
 INFO: [Synth 8-3491] module 'Mux_2_way_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:4' bound to instance 'Mux24_1' of component 'Mux_2_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:268]
 INFO: [Synth 8-3491] module 'Mux_2_way_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd:4' bound to instance 'Mux24_2' of component 'Mux_2_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:278]
 INFO: [Synth 8-3491] module 'Register_Bank_8' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:4' bound to instance 'RB' of component 'Register_Bank_8' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:288]
 INFO: [Synth 8-638] synthesizing module 'Register_Bank_8' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:23]
 INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd:5' bound to instance 'Decoder_0' of component 'Decoder_3_to_8' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:47]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register0' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:54]
-INFO: [Synth 8-638] synthesizing module 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:15]
-INFO: [Synth 8-3491] module 'Register_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:4' bound to instance 'Reg_0' of component 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:32]
-INFO: [Synth 8-3491] module 'Register_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:4' bound to instance 'Reg_1' of component 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:42]
-INFO: [Synth 8-3491] module 'Register_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:4' bound to instance 'Reg_2' of component 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:52]
-INFO: [Synth 8-3491] module 'Register_1' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd:4' bound to instance 'Reg_3' of component 'Register_1' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:62]
-INFO: [Synth 8-256] done synthesizing module 'Register_4' (18#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:15]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register1' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:64]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register2' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:74]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register3' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:84]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register4' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:94]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register5' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:104]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register6' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:114]
-INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd:4' bound to instance 'Register7' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:124]
-INFO: [Synth 8-256] done synthesizing module 'Register_Bank_8' (19#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:23]
-INFO: [Synth 8-256] done synthesizing module 'Processor' (20#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:23]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register0' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:15]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'D_FF_0' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:34]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'D_FF_1' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:44]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'D_FF_2' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:55]
+INFO: [Synth 8-3491] module 'D_FF' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:4' bound to instance 'D_FF_3' of component 'D_FF' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'Register_4' (17#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:15]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register1' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:64]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register2' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:74]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register3' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:84]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register4' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:94]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register5' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:104]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register6' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:114]
+INFO: [Synth 8-3491] module 'Register_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd:4' bound to instance 'Register7' of component 'Register_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:124]
+INFO: [Synth 8-256] done synthesizing module 'Register_Bank_8' (18#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_Bank_8.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'Processor' (19#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:23]
 WARNING: [Synth 8-3331] design ADD_3 has unconnected port C_in
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 413.789 ; gain = 155.324
+Finished Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 412.770 ; gain = 154.324
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 413.789 ; gain = 155.324
+Finished Constraint Validation : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 412.770 ; gain = 154.324
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 413.789 ; gain = 155.324
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 412.770 ; gain = 154.324
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Synth 8-5544] ROM "program_ROM" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:12 . Memory (MB): peak = 413.789 ; gain = 155.324
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 412.770 ; gain = 154.324
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -188,75 +184,55 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-6014] Unused sequential element PC/Reg0/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element PC/Reg0/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element PC/Reg0/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register0/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register0/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register0/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register0/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register1/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register1/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register1/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register1/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register2/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register2/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register2/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register2/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register3/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register3/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register3/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register3/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register4/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register4/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register4/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register4/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register5/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register5/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register5/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register5/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register6/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register6/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register6/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register6/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register7/Reg_0/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register7/Reg_1/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register7/Reg_2/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-WARNING: [Synth 8-6014] Unused sequential element RB/Register7/Reg_3/DFF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register7/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register7/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register7/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register7/Reg_3/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register6/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register6/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register6/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register6/Reg_3/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register5/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register5/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register5/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register5/Reg_3/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register4/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register4/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register4/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register4/Reg_3/DFF_0/Q_reg_reg )
-WARNING: [Synth 8-3332] Sequential element (RB/Register4/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register5/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register6/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register7/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register4/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register5/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register6/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register7/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register4/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register5/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register6/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register7/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register4/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register5/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register6/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register7/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
+WARNING: [Synth 8-6014] Unused sequential element PC/Reg0/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element PC/Reg0/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element PC/Reg0/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register0/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register0/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register0/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register0/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register1/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register1/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register1/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register1/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register2/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register2/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register2/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register2/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register3/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register3/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register3/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register3/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register4/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register4/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register4/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register4/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register5/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register5/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register5/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register5/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register6/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register6/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register6/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register6/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register7/D_FF_0/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register7/D_FF_1/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register7/D_FF_2/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+WARNING: [Synth 8-6014] Unused sequential element RB/Register7/D_FF_3/Qbar_reg_reg was removed.  [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd:25]
+INFO: [Synth 8-3886] merging instance 'RB/Register7/D_FF_0/Q_reg_reg' (FDR) to 'RB/Register6/D_FF_0/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register7/D_FF_1/Q_reg_reg' (FDR) to 'RB/Register6/D_FF_1/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register7/D_FF_2/Q_reg_reg' (FDR) to 'RB/Register6/D_FF_2/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register7/D_FF_3/Q_reg_reg' (FDR) to 'RB/Register6/D_FF_3/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register6/D_FF_0/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_0/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register6/D_FF_1/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_1/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register6/D_FF_2/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_2/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register6/D_FF_3/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_3/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register5/D_FF_0/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_0/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register5/D_FF_1/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_1/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register5/D_FF_2/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_2/Q_reg_reg'
+INFO: [Synth 8-3886] merging instance 'RB/Register5/D_FF_3/Q_reg_reg' (FDR) to 'RB/Register4/D_FF_3/Q_reg_reg'
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 552.414 ; gain = 293.949
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -269,7 +245,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 552.414 ; gain = 293.949
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -280,16 +256,12 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register3/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register3/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register3/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\RB/Register3/Reg_3/DFF_0/Q_reg_reg )
-WARNING: [Synth 8-3332] Sequential element (RB/Register3/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register3/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register3/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
-WARNING: [Synth 8-3332] Sequential element (RB/Register3/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Processor.
+WARNING: [Synth 8-3332] Sequential element (RB/Register4/D_FF_0/Q_reg_reg) is unused and will be removed from module Processor.
+WARNING: [Synth 8-3332] Sequential element (RB/Register4/D_FF_1/Q_reg_reg) is unused and will be removed from module Processor.
+WARNING: [Synth 8-3332] Sequential element (RB/Register4/D_FF_2/Q_reg_reg) is unused and will be removed from module Processor.
+WARNING: [Synth 8-3332] Sequential element (RB/Register4/D_FF_3/Q_reg_reg) is unused and will be removed from module Processor.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -313,7 +285,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -326,7 +298,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -338,25 +310,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -373,64 +345,53 @@ Report Cell Usage:
 |      |Cell |Count |
 +------+-----+------+
 |1     |BUFG |     1|
-|2     |LUT2 |     1|
-|3     |LUT3 |     4|
-|4     |LUT4 |     1|
-|5     |LUT5 |    16|
-|6     |LUT6 |    14|
-|7     |FDRE |    15|
-|8     |IBUF |     3|
-|9     |OBUF |    34|
+|2     |LUT3 |     6|
+|3     |LUT4 |     5|
+|4     |LUT5 |    15|
+|5     |LUT6 |    19|
+|6     |FDRE |    19|
+|7     |IBUF |     3|
+|8     |OBUF |    34|
 +------+-----+------+
 
 Report Instance Areas: 
 +------+--------------+------------------+------+
 |      |Instance      |Module            |Cells |
 +------+--------------+------------------+------+
-|1     |top           |                  |    89|
-|2     |  PC          |Program_Counter_3 |    28|
-|3     |    Reg0      |Register_3        |    28|
-|4     |      Reg_0   |Register_1_24     |     3|
-|5     |        DFF_0 |D_FF_29           |     3|
-|6     |      Reg_1   |Register_1_25     |    15|
-|7     |        DFF_0 |D_FF_28           |    15|
-|8     |      Reg_2   |Register_1_26     |    10|
-|9     |        DFF_0 |D_FF_27           |    10|
-|10    |  RB          |Register_Bank_8   |    23|
-|11    |    Register0 |Register_4        |     7|
-|12    |      Reg_0   |Register_1_16     |     1|
-|13    |        DFF_0 |D_FF_23           |     1|
-|14    |      Reg_1   |Register_1_17     |     3|
-|15    |        DFF_0 |D_FF_22           |     3|
-|16    |      Reg_2   |Register_1_18     |     1|
-|17    |        DFF_0 |D_FF_21           |     1|
-|18    |      Reg_3   |Register_1_19     |     2|
-|19    |        DFF_0 |D_FF_20           |     2|
-|20    |    Register1 |Register_4_0      |     9|
-|21    |      Reg_0   |Register_1_8      |     1|
-|22    |        DFF_0 |D_FF_15           |     1|
-|23    |      Reg_1   |Register_1_9      |     3|
-|24    |        DFF_0 |D_FF_14           |     3|
-|25    |      Reg_2   |Register_1_10     |     4|
-|26    |        DFF_0 |D_FF_13           |     4|
-|27    |      Reg_3   |Register_1_11     |     1|
-|28    |        DFF_0 |D_FF_12           |     1|
-|29    |    Register2 |Register_4_1      |     7|
-|30    |      Reg_0   |Register_1        |     4|
-|31    |        DFF_0 |D_FF_7            |     4|
-|32    |      Reg_1   |Register_1_2      |     1|
-|33    |        DFF_0 |D_FF_6            |     1|
-|34    |      Reg_2   |Register_1_3      |     1|
-|35    |        DFF_0 |D_FF_5            |     1|
-|36    |      Reg_3   |Register_1_4      |     1|
-|37    |        DFF_0 |D_FF              |     1|
+|1     |top           |                  |   102|
+|2     |  PC          |Program_Counter_3 |    38|
+|3     |    Reg0      |Register_3        |    38|
+|4     |      D_FF_0  |D_FF_18           |     3|
+|5     |      D_FF_1  |D_FF_19           |    28|
+|6     |      D_FF_2  |D_FF_20           |     7|
+|7     |  RB          |Register_Bank_8   |    26|
+|8     |    Register0 |Register_4        |     4|
+|9     |      D_FF_0  |D_FF_14           |     1|
+|10    |      D_FF_1  |D_FF_15           |     1|
+|11    |      D_FF_2  |D_FF_16           |     1|
+|12    |      D_FF_3  |D_FF_17           |     1|
+|13    |    Register1 |Register_4_0      |     4|
+|14    |      D_FF_0  |D_FF_10           |     1|
+|15    |      D_FF_1  |D_FF_11           |     1|
+|16    |      D_FF_2  |D_FF_12           |     1|
+|17    |      D_FF_3  |D_FF_13           |     1|
+|18    |    Register2 |Register_4_1      |    14|
+|19    |      D_FF_0  |D_FF_6            |     3|
+|20    |      D_FF_1  |D_FF_7            |     2|
+|21    |      D_FF_2  |D_FF_8            |     5|
+|22    |      D_FF_3  |D_FF_9            |     4|
+|23    |    Register3 |Register_4_2      |     4|
+|24    |      D_FF_0  |D_FF              |     1|
+|25    |      D_FF_1  |D_FF_3            |     1|
+|26    |      D_FF_2  |D_FF_4            |     1|
+|27    |      D_FF_3  |D_FF_5            |     1|
 +------+--------------+------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 56 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
-Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 553.758 ; gain = 295.293
+Synthesis finished with 0 errors, 0 critical warnings and 40 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 553.910 ; gain = 295.465
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -440,10 +401,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-124 Infos, 56 Warnings, 0 Critical Warnings and 0 Errors encountered.
+112 Infos, 40 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 648.977 ; gain = 403.250
+synth_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 652.926 ; gain = 407.508
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1/Processor.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Processor_utilization_synth.rpt -pb Processor_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 648.977 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 15 14:31:41 2024...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 652.926 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 16 15:57:38 2024...

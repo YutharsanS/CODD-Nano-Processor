@@ -2,10 +2,10 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Apr 15 14:16:41 2024
-# Process ID: 19424
+# Start of session at: Tue Apr 16 15:53:00 2024
+# Process ID: 11228
 # Current directory: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19068 C:\Users\Yutharsan\Documents\GitHub\CODD-Nano-Processor\Nano Processor\Nano Processor.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18364 C:\Users\Yutharsan\Documents\GitHub\CODD-Nano-Processor\Nano Processor\Nano Processor.xpr
 # Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/vivado.log
 # Journal file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor\vivado.jou
 #-----------------------------------------------------------
@@ -16,12 +16,9 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
-open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 888.379 ; gain = 148.367
 update_compile_order -fileset sources_1
-reset_run synth_1
-launch_runs synth_1 -jobs 2
-[Mon Apr 15 14:18:14 2024] Launched synth_1...
-Run output will be captured here: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1/runme.log
+add_files -norecurse {{C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd} {C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd} {C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd}}
+update_compile_order -fileset sources_1
 launch_simulation
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
@@ -31,78 +28,34 @@ INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
 "xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_12
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_4
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Processor
-INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.1
-Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto f859496e7c524f28a834218ab560eb00 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
-Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_3 [register_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.Program_Counter_3 [program_counter_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
-Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
-Compiling architecture behavioral of entity xil_defaultlib.ADD_3 [add_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_12 [instruction_decoder_12_default]
-Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_8 [program_rom_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
-Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4 [mux_8_way_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4 [mux_2_way_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_4 [register_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
-Compiling architecture behavioral of entity xil_defaultlib.tb_processor
-Built simulation snapshot TB_Processor_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.1
-Time resolution is 1 ps
-source TB_Processor.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-Error: Negation fails for R2
-Time: 160 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
-Error: Addition fails for R1 = R1 + R2
-Time: 180 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
-Error: Addition fails for R1 = R1 + R2
-Time: 240 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
-Error: Addition fails for R1 = R1 + R2
-Time: 300 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 933.094 ; gain = 18.988
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_1
+ERROR: [VRFC 10-91] mux_out is not declared [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd:36]
+ERROR: [VRFC 10-91] q_temp is not declared [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd:39]
+ERROR: [VRFC 10-283] actual of formal out port q cannot be an expression [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd:39]
+ERROR: [VRFC 10-1504] unit behavioral ignored due to previous errors [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd:15]
+INFO: [VRFC 10-240] VHDL file C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
 launch_simulation
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
@@ -112,9 +65,31 @@ INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
 INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
 "xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Decoders/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_12
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_Counter_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_Counter_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_4
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity TB_Processor
-INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
 Vivado Simulator 2018.1
@@ -130,11 +105,10 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
 Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
 Compiling architecture behavioral of entity xil_defaultlib.Register_3 [register_3_default]
 Compiling architecture behavioral of entity xil_defaultlib.Program_Counter_3 [program_counter_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
 Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
 Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
 Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
@@ -152,7 +126,16 @@ Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [regi
 Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
 Compiling architecture behavioral of entity xil_defaultlib.tb_processor
 Built simulation snapshot TB_Processor_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano -notrace
+couldn't read file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano": permission denied
+INFO: [Common 17-206] Exiting Webtalk at Tue Apr 16 15:57:04 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -171,8 +154,6 @@ source TB_Processor.tcl
 #   }
 # }
 # run 1000ns
-Error: Negation fails for R2
-Time: 320 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
 Error: Addition fails for R1 = R1 + R2
 Time: 360 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
 Error: Addition fails for R1 = R1 + R2
@@ -181,86 +162,33 @@ Error: Addition fails for R1 = R1 + R2
 Time: 600 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 938.852 ; gain = 1.172
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
-"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_12
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Processor
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.1
-Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto f859496e7c524f28a834218ab560eb00 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling package std.standard
-Compiling package std.textio
-Compiling package ieee.std_logic_1164
-Compiling package ieee.numeric_std
-Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
-Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_3 [register_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.Program_Counter_3 [program_counter_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
-Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
-Compiling architecture behavioral of entity xil_defaultlib.ADD_3 [add_3_default]
-Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_12 [instruction_decoder_12_default]
-Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_8 [program_rom_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
-Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_4 [mux_8_way_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_4 [mux_2_way_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_4 [register_4_default]
-Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
-Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
-Compiling architecture behavioral of entity xil_defaultlib.tb_processor
-Built simulation snapshot TB_Processor_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.1
-Time resolution is 1 ps
-source TB_Processor.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 944.820 ; gain = 0.246
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 962.477 ; gain = 24.043
 reset_run synth_1
 WARNING: [Vivado 12-1017] Problems encountered:
 1. Failed to delete one or more files in run directory C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1
 
-launch_runs synth_1 -jobs 2
-[Mon Apr 15 14:30:59 2024] Launched synth_1...
+launch_runs synth_1 -jobs 8
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Register_1(Behavioral)' found in library 'xil_defaultlib'
+Duplicate found at line 15 of file C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1.vhd
+	(Active) Duplicate found at line 15 of file C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_1_new.vhd
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Register_3(Behavioral)' found in library 'xil_defaultlib'
+Duplicate found at line 15 of file C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3.vhd
+	(Active) Duplicate found at line 15 of file C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_3_new.vhd
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'Register_4(Behavioral)' found in library 'xil_defaultlib'
+Duplicate found at line 15 of file C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4.vhd
+	(Active) Duplicate found at line 15 of file C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Registers/Register_4_new.vhd
+[Tue Apr 16 15:57:18 2024] Launched synth_1...
 Run output will be captured here: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1379.727 ; gain = 416.688
