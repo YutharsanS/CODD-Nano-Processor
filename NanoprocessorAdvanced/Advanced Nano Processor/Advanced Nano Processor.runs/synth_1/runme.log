@@ -1,0 +1,2206 @@
+
+*** Running vivado
+    with args -log Multiplier_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplier_5.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Multiplier_5.tcl -notrace
+Command: synth_design -top Multiplier_5 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25356 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.473 ; gain = 96.879
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (3#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.691 ; gain = 152.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.691 ; gain = 152.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.691 ; gain = 152.098
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.691 ; gain = 152.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multiplier_5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |     6|
+|2     |LUT3 |     1|
+|3     |LUT4 |     8|
+|4     |LUT5 |     8|
+|5     |LUT6 |    16|
+|6     |IBUF |    10|
+|7     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    57|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 763.645 ; gain = 451.051
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 877.262 ; gain = 577.734
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/Multiplier_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Multiplier_5_utilization_synth.rpt -pb Multiplier_5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.288 . Memory (MB): peak = 877.262 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 17:18:44 2024...
+
+*** Running vivado
+    with args -log Multiplier_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplier_5.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Multiplier_5.tcl -notrace
+Command: synth_design -top Multiplier_5 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25148 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 410.445 ; gain = 97.906
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+WARNING: [Synth 8-3848] Net O in module/entity Multiplier_5 does not have driver. [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:10]
+WARNING: [Synth 8-3848] Net Z in module/entity Multiplier_5 does not have driver. [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:11]
+WARNING: [Synth 8-3848] Net N in module/entity Multiplier_5 does not have driver. [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (3#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port O
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port Z
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port N
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.082 ; gain = 152.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.082 ; gain = 152.543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.082 ; gain = 152.543
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.082 ; gain = 152.543
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 45    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port O
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port Z
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port N
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     2|
+|2     |LUT4  |     4|
+|3     |LUT5  |     1|
+|4     |LUT6  |     6|
+|5     |IBUF  |    10|
+|6     |OBUF  |     5|
+|7     |OBUFT |     3|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    31|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 774.566 ; gain = 462.027
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 886.605 ; gain = 586.961
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/Multiplier_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Multiplier_5_utilization_synth.rpt -pb Multiplier_5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 886.605 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 17:28:13 2024...
+
+*** Running vivado
+    with args -log Multiplier_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplier_5.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Multiplier_5.tcl -notrace
+Command: synth_design -top Multiplier_5 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21984 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.656 ; gain = 96.566
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+WARNING: [Synth 8-3848] Net O in module/entity Multiplier_5 does not have driver. [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:10]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (3#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port O
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 465.023 ; gain = 151.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.023 ; gain = 151.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.023 ; gain = 151.934
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.023 ; gain = 151.934
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multiplier_5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port O
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     2|
+|2     |LUT3  |     1|
+|3     |LUT4  |     3|
+|4     |LUT5  |     7|
+|5     |LUT6  |    17|
+|6     |MUXF7 |     4|
+|7     |MUXF8 |     2|
+|8     |IBUF  |    10|
+|9     |OBUF  |     7|
+|10    |OBUFT |     1|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    54|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.375 ; gain = 448.285
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 16 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:31 . Memory (MB): peak = 884.934 ; gain = 584.727
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/Multiplier_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Multiplier_5_utilization_synth.rpt -pb Multiplier_5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.253 . Memory (MB): peak = 884.934 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 17:30:23 2024...
+
+*** Running vivado
+    with args -log Multiplier_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplier_5.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Multiplier_5.tcl -notrace
+Command: synth_design -top Multiplier_5 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 25084 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.516 ; gain = 96.770
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+WARNING: [Synth 8-3848] Net Z in module/entity Multiplier_5 does not have driver. [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (3#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port Z
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.285 ; gain = 151.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 464.285 ; gain = 151.539
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 464.285 ; gain = 151.539
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 464.285 ; gain = 151.539
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multiplier_5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design Multiplier_5 has unconnected port Z
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     5|
+|2     |LUT4  |     8|
+|3     |LUT5  |     5|
+|4     |LUT6  |    15|
+|5     |IBUF  |    10|
+|6     |OBUF  |     7|
+|7     |OBUFT |     1|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    51|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:25 . Memory (MB): peak = 770.629 ; gain = 457.883
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 883.906 ; gain = 584.000
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/Multiplier_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Multiplier_5_utilization_synth.rpt -pb Multiplier_5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.302 . Memory (MB): peak = 883.906 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 19:01:50 2024...
+
+*** Running vivado
+    with args -log Multiplier_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplier_5.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Multiplier_5.tcl -notrace
+Command: synth_design -top Multiplier_5 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23588 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.832 ; gain = 97.660
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (3#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.965 ; gain = 152.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.965 ; gain = 152.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.965 ; gain = 152.793
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.965 ; gain = 152.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multiplier_5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     2|
+|2     |LUT4  |     2|
+|3     |LUT5  |     5|
+|4     |LUT6  |    23|
+|5     |MUXF7 |     8|
+|6     |MUXF8 |     3|
+|7     |IBUF  |    10|
+|8     |OBUF  |     8|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    61|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:25 . Memory (MB): peak = 761.402 ; gain = 449.230
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 761.402 ; gain = 449.230
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 761.402 ; gain = 449.230
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:32 . Memory (MB): peak = 884.078 ; gain = 584.949
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/Multiplier_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Multiplier_5_utilization_synth.rpt -pb Multiplier_5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.255 . Memory (MB): peak = 884.078 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 19:13:52 2024...
+
+*** Running vivado
+    with args -log Multiplier_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplier_5.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Multiplier_5.tcl -notrace
+Command: synth_design -top Multiplier_5 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 22160 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.449 ; gain = 96.238
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (3#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.285 ; gain = 151.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.285 ; gain = 151.074
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 464.285 ; gain = 151.074
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 464.285 ; gain = 151.074
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multiplier_5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:23 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    12|
+|2     |LUT3 |     1|
+|3     |LUT4 |     5|
+|4     |LUT5 |     2|
+|5     |LUT6 |    17|
+|6     |IBUF |    10|
+|7     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    55|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 762.914 ; gain = 449.703
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:30 . Memory (MB): peak = 874.930 ; gain = 574.734
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/Multiplier_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Multiplier_5_utilization_synth.rpt -pb Multiplier_5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.289 . Memory (MB): peak = 875.293 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 19:28:41 2024...
+
+*** Running vivado
+    with args -log ALU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source ALU.tcl -notrace
+Command: synth_design -top ALU -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3192 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.422 ; gain = 96.617
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-989] comp_1 is already declared in this region [G:/Vivado Projects/Basic processor components/Comp_5.vhd:62]
+INFO: [Synth 8-2810] unit behavioral ignored due to previous errors [G:/Vivado Projects/Basic processor components/Comp_5.vhd:14]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 463.332 ; gain = 150.527
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 20:03:19 2024...
+
+*** Running vivado
+    with args -log ALU.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source ALU.tcl -notrace
+Command: synth_design -top ALU -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21744 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 409.555 ; gain = 97.719
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU' [G:/Vivado Projects/Basic processor components/ALU.vhd:17]
+INFO: [Synth 8-3491] module 'ADD_SUB' declared at 'G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:4' bound to instance 'AddSub' of component 'ADD_SUB' [G:/Vivado Projects/Basic processor components/ALU.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'ADD_SUB' [G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:15]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0' of component 'FA' [G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:45]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:53]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:61]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'ADD_SUB' (3#1) [G:/Vivado Projects/Basic processor components/Add_Sub_5.vhd:15]
+INFO: [Synth 8-3491] module 'Multiplier_5' declared at 'G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:4' bound to instance 'Multiplier' of component 'Multiplier_5' [G:/Vivado Projects/Basic processor components/ALU.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (4#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'Comp_5' declared at 'G:/Vivado Projects/Basic processor components/Comp_5.vhd:4' bound to instance 'Comp' of component 'Comp_5' [G:/Vivado Projects/Basic processor components/ALU.vhd:140]
+INFO: [Synth 8-638] synthesizing module 'Comp_5' [G:/Vivado Projects/Basic processor components/Comp_5.vhd:14]
+INFO: [Synth 8-3491] module 'Comp_1' declared at 'G:/Vivado Projects/Basic processor components/Comp_1.vhd:4' bound to instance 'Comp4' of component 'Comp_1' [G:/Vivado Projects/Basic processor components/Comp_5.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'Comp_1' [G:/Vivado Projects/Basic processor components/Comp_1.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Comp_1' (5#1) [G:/Vivado Projects/Basic processor components/Comp_1.vhd:16]
+INFO: [Synth 8-3491] module 'Comp_1' declared at 'G:/Vivado Projects/Basic processor components/Comp_1.vhd:4' bound to instance 'Comp3' of component 'Comp_1' [G:/Vivado Projects/Basic processor components/Comp_5.vhd:40]
+INFO: [Synth 8-3491] module 'Comp_1' declared at 'G:/Vivado Projects/Basic processor components/Comp_1.vhd:4' bound to instance 'Comp2' of component 'Comp_1' [G:/Vivado Projects/Basic processor components/Comp_5.vhd:51]
+INFO: [Synth 8-3491] module 'Comp_1' declared at 'G:/Vivado Projects/Basic processor components/Comp_1.vhd:4' bound to instance 'Comp1' of component 'Comp_1' [G:/Vivado Projects/Basic processor components/Comp_5.vhd:62]
+INFO: [Synth 8-3491] module 'Comp_1' declared at 'G:/Vivado Projects/Basic processor components/Comp_1.vhd:4' bound to instance 'Comp0' of component 'Comp_1' [G:/Vivado Projects/Basic processor components/Comp_5.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'Comp_5' (6#1) [G:/Vivado Projects/Basic processor components/Comp_5.vhd:14]
+INFO: [Synth 8-3491] module 'AND_5' declared at 'G:/Vivado Projects/Basic processor components/AND_5.vhd:4' bound to instance 'And_0' of component 'AND_5' [G:/Vivado Projects/Basic processor components/ALU.vhd:149]
+INFO: [Synth 8-638] synthesizing module 'AND_5' [G:/Vivado Projects/Basic processor components/AND_5.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'AND_5' (7#1) [G:/Vivado Projects/Basic processor components/AND_5.vhd:14]
+INFO: [Synth 8-3491] module 'OR_5' declared at 'G:/Vivado Projects/Basic processor components/OR_5.vhd:4' bound to instance 'Or_0' of component 'OR_5' [G:/Vivado Projects/Basic processor components/ALU.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'OR_5' [G:/Vivado Projects/Basic processor components/OR_5.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'OR_5' (8#1) [G:/Vivado Projects/Basic processor components/OR_5.vhd:14]
+INFO: [Synth 8-3491] module 'NOT_5' declared at 'G:/Vivado Projects/Basic processor components/NOT_5.vhd:4' bound to instance 'Not_0' of component 'NOT_5' [G:/Vivado Projects/Basic processor components/ALU.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'NOT_5' [G:/Vivado Projects/Basic processor components/NOT_5.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'NOT_5' (9#1) [G:/Vivado Projects/Basic processor components/NOT_5.vhd:13]
+INFO: [Synth 8-3491] module 'Mux_8_way_5' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:4' bound to instance 'S_Selector' of component 'Mux_8_way_5' [G:/Vivado Projects/Basic processor components/ALU.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_way_5' [G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:21]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'MUX_0' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:11]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:5' bound to instance 'DC1' of component 'Decoder_3_to_8' [G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:11]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'G:/Vivado Projects/Basic processor components/Decoder_2_to_4.vhd:5' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [G:/Vivado Projects/Basic processor components/Decoder_2_to_4.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (10#1) [G:/Vivado Projects/Basic processor components/Decoder_2_to_4.vhd:11]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'G:/Vivado Projects/Basic processor components/Decoder_2_to_4.vhd:5' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (11#1) [G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_1' (12#1) [G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:11]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'MUX_1' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:49]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'MUX_2' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:64]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'MUX_3' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:79]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'MUX_4' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:94]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_way_5' (13#1) [G:/Vivado Projects/Basic processor components/Mux_8_way_5.vhd:21]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'O_Selector' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/ALU.vhd:192]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'Z_Selector' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/ALU.vhd:208]
+INFO: [Synth 8-3491] module 'Mux_8_way_1' declared at 'G:/Vivado Projects/Basic processor components/Mux_8_way_1.vhd:4' bound to instance 'N_Selector' of component 'Mux_8_way_1' [G:/Vivado Projects/Basic processor components/ALU.vhd:224]
+WARNING: [Synth 8-3848] Net O in module/entity ALU does not have driver. [G:/Vivado Projects/Basic processor components/ALU.vhd:11]
+WARNING: [Synth 8-3848] Net N in module/entity ALU does not have driver. [G:/Vivado Projects/Basic processor components/ALU.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (14#1) [G:/Vivado Projects/Basic processor components/ALU.vhd:17]
+WARNING: [Synth 8-3331] design ALU has unconnected port O
+WARNING: [Synth 8-3331] design ALU has unconnected port N
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 465.531 ; gain = 153.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 465.531 ; gain = 153.695
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 465.531 ; gain = 153.695
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.531 ; gain = 153.695
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 62    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module ADD_SUB 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 6     
+Module Multiplier_5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design ALU has unconnected port O
+WARNING: [Synth 8-3331] design ALU has unconnected port N
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:27 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Z_OBUF with 1st driver pin 'i_68/O' [G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:41]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Z_OBUF with 2nd driver pin 'i_64/O' [G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:41]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Z_OBUF with 3rd driver pin 'i_63/O' [G:/Vivado Projects/Basic processor components/Decoder_3_to_8.vhd:41]
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        1|Failed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     7|
+|2     |LUT3  |     6|
+|3     |LUT4  |     6|
+|4     |LUT5  |    17|
+|5     |LUT6  |    33|
+|6     |IBUF  |    13|
+|7     |OBUF  |     6|
+|8     |OBUFT |     2|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    90|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 3 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:28 . Memory (MB): peak = 778.559 ; gain = 466.723
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+92 Infos, 6 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 889.129 ; gain = 590.176
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/ALU.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_utilization_synth.rpt -pb ALU_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.247 . Memory (MB): peak = 889.129 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 20:05:16 2024...
+
+*** Running vivado
+    with args -log Multiplier_5.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Multiplier_5.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Multiplier_5.tcl -notrace
+Command: synth_design -top Multiplier_5 -part xc7vx485tffg1157-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7vx485t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 23008 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 409.797 ; gain = 96.680
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Multiplier_5' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'HA' [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'HA' (1#1) [G:/Vivado Projects/Basic processor components/HA.vhd:32]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'FA' [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:46]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [G:/Vivado Projects/Basic processor components/FA.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'FA' (2#1) [G:/Vivado Projects/Basic processor components/FA.vhd:33]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:85]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_0_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:103]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_1_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:114]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:122]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:131]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:140]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_1_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:149]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_2_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:160]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:168]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:177]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:186]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_2_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:195]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_3_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:205]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:213]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:222]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:231]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_3_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:240]
+INFO: [Synth 8-3491] module 'HA' declared at 'G:/Vivado Projects/Basic processor components/HA.vhd:25' bound to instance 'HA_4_0' of component 'HA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:251]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_1' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:259]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_2' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:268]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_3' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:277]
+INFO: [Synth 8-3491] module 'FA' declared at 'G:/Vivado Projects/Basic processor components/FA.vhd:25' bound to instance 'FA_4_4' of component 'FA' [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:286]
+INFO: [Synth 8-256] done synthesizing module 'Multiplier_5' (3#1) [G:/Vivado Projects/Basic processor components/Multiplier_5.vhd:16]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 465.113 ; gain = 151.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 465.113 ; gain = 151.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 465.113 ; gain = 151.996
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7vx485tffg1157-1
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 465.113 ; gain = 151.996
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 46    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Multiplier_5 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 2800 (col length:140)
+BRAMs: 2060 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    12|
+|2     |LUT3 |     1|
+|3     |LUT4 |     5|
+|4     |LUT5 |     2|
+|5     |LUT6 |    17|
+|6     |IBUF |    10|
+|7     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    55|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:23 . Memory (MB): peak = 764.578 ; gain = 451.461
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 10 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:30 . Memory (MB): peak = 875.648 ; gain = 575.594
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'G:/Vivado Projects/Advanced Nano Processor/Advanced Nano Processor.runs/synth_1/Multiplier_5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Multiplier_5_utilization_synth.rpt -pb Multiplier_5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.319 . Memory (MB): peak = 875.984 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 17 20:16:03 2024...
