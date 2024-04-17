@@ -26,7 +26,7 @@ architecture Behavioral of Instruction_Decoder_12 is
 component Mux_4_to_1
   port
   (
-    D      : in std_logic_vector(3 downto 1);
+    D      : in std_logic_vector(3 downto 0);
     Sel    : in std_logic_vector(1 downto 0);
     Output : out std_logic
   );
