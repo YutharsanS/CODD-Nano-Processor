@@ -26,10 +26,10 @@ entity ADD_SUB is
     Port ( A : in STD_LOGIC_VECTOR (3 downto 0);
            B : in STD_LOGIC_VECTOR (3 downto 0);
            Ctrl : in STD_LOGIC;
-           C_in : in STD_LOGIC;
            C_out : out STD_LOGIC;
            S : out STD_LOGIC_VECTOR (3 downto 0);
-           V : out STD_LOGIC);
+           V : out STD_LOGIC
+           Z : out STD_LOGIC );
 end ADD_SUB;
 
 architecture Behavioral of ADD_SUB is
@@ -87,6 +87,7 @@ FA_3 : FA
 C_out <= FA3_C;
 C_out <= FA3_C;
 V <= FA3_C XOR FA2_C;
+Z <= S(0) NAND S(1) NAND S(2) NAND S(3);
 
 
 end Behavioral;
