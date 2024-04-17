@@ -4,7 +4,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Mux_4_to_1 is
   port
   (
-    D      : in std_logic_vector(3 downto 1);
+    D      : in std_logic_vector(3 downto 0);
     Sel    : in std_logic_vector(1 downto 0);
     Output : out std_logic
   );
