@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Apr 17 22:55:48 2024
+# Process ID: 17116
+# Current directory: E:/Vivado projects/CODD-Nano-Processor/CODD-Nano-Processor/Mux_2_way_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22088 E:\Vivado projects\CODD-Nano-Processor\CODD-Nano-Processor\Mux_2_way_5\Mux_2_way_5.xpr
+# Log file: E:/Vivado projects/CODD-Nano-Processor/CODD-Nano-Processor/Mux_2_way_5/vivado.log
+# Journal file: E:/Vivado projects/CODD-Nano-Processor/CODD-Nano-Processor/Mux_2_way_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {E:/Vivado projects/CODD-Nano-Processor/CODD-Nano-Processor/Mux_2_way_5/Mux_2_way_5.xpr}
+update_compile_order -fileset sources_1
