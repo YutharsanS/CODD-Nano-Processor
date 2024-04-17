@@ -23,6 +23,6 @@ architecture Behavioral of Program_ROM_15 is
 
 begin
 
-I <= program_ROM (to_integer(unsigned(M)));
+    I <= program_ROM (to_integer(unsigned(M)));
 
 end Behavioral;
