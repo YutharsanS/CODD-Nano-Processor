@@ -2,11 +2,11 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Apr 15 13:44:05 2024
-# Process ID: 2752
+# Start of session at: Mon Apr 22 11:20:49 2024
+# Process ID: 18156
 # Current directory: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1
-# Command line: vivado.exe -log Processor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Processor.tcl
-# Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1/Processor.vds
+# Command line: vivado.exe -log Display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Display.tcl
+# Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1/Display.vds
 # Journal file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
-source Processor.tcl -notrace
+source Display.tcl -notrace
