@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7k70tfbv676-1" LaunchTime="1713952035">
   <File Type="PA-TCL" Name="Multiplier_5.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Multiplier_5_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Multiplier_5_reports.tcl"/>
   <File Type="RDS-RDS" Name="Multiplier_5.vds"/>
   <File Type="RDS-UTIL" Name="Multiplier_5_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Multiplier_5_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Multiplier_5.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Multiplier_5_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Multiplier_5_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Processor.vhd">
