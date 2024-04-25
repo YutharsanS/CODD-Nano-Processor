@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity Processor is
-  Port (
+  Port ( 
       PC_Reset : in std_logic;
       RB_Reset : in std_logic;
       Clk      : in std_logic;
@@ -22,8 +22,8 @@ end Processor;
 
 architecture Behavioral of Processor is
 
-component Instruction_Decoder_15
-    Port
+component Instruction_Decoder_15 
+    Port 
     (
       I : in std_logic_vector(14 downto 0);
       Reg1_Check : in std_logic_vector(4 downto 0);
@@ -37,11 +37,13 @@ component Instruction_Decoder_15
       ALU_Control : out std_logic_vector(2 downto 0);
       RegisterBank_EN : out std_logic;
       Jump_Flag : out std_logic;
-      Jump_Address : out std_logic_vector(4 downto 0)
+      Jump_Address : out std_logic_vector(4 downto 0);
+      FlagEn : out std_logic;
+      Copy_Sel : out std_logic
     );
 end component;
 
-component Program_ROM_15
+component Program_ROM_15 
     port
     (
      M    : in std_logic_vector(4 downto 0);
@@ -49,7 +51,7 @@ component Program_ROM_15
  );
 end component;
 
-component ALU
+component ALU 
   port
   (
     A    : in std_logic_vector(4 downto 0);
@@ -62,7 +64,7 @@ component ALU
   );
 end component;
 
-component Register_Bank_8
+component Register_Bank_8 
   port
   (
     Data   : in std_logic_vector(4 downto 0);
@@ -81,7 +83,7 @@ component Register_Bank_8
   );
 end component;
 
-component Mux_8_way_5
+component Mux_8_way_5 
   port
     (
         D0      : in std_logic_vector(4 downto 0);
@@ -98,7 +100,7 @@ component Mux_8_way_5
     );
 end component;
 
-component Register_5
+component Register_5 
   port
   (
     D     : in std_logic_vector(4 downto 0);
@@ -108,14 +110,14 @@ component Register_5
     Q     : out std_logic_vector(4 downto 0)
   );
  end component;
-
- component PC_ADD_5
-    Port (
+  
+ component PC_ADD_5 
+    Port ( 
       Adrs : in STD_LOGIC_VECTOR (4 downto 0);
       C_out : out STD_LOGIC;
       S : out STD_LOGIC_VECTOR (4 downto 0));
  end component;
-
+ 
  component Mux_2_way_5 is
    port
    (
@@ -125,13 +127,13 @@ component Register_5
      Output : out std_logic_vector(4 downto 0)
    );
  end component;
-
+ 
  signal Out_0, Out_1, Out_2, Out_3, Out_4, Out_5, Out_6, Out_7 : std_logic_vector(4 downto 0);
- signal mux850_out, mux851_out, Imd_val, Jump_Adrs, PC_Add_out, PC_Mux_out, Load_Sel_Mux_out : std_logic_vector(4 downto 0);
+ signal mux850_out, mux851_out, Imd_val, Jump_Adrs, PC_Add_out, PC_Mux_out, Load_Sel_Mux_out, Copy_Sel_Mux_out : std_logic_vector(4 downto 0);
  signal ALU_S, M : std_logic_vector(4 downto 0);
  signal reg1, reg2, ALU_Ctrl, Reg_EN : std_logic_vector(2 downto 0);
  signal I : std_logic_vector(14 downto 0);
- signal ALU_O, ALU_Z, ALU_N, Oflag, Zflag, Nflag, Load_Sel, RB_En, Jump_Flag : std_logic;
+ signal ALU_O, ALU_Z, ALU_N, Oflag, Zflag, Nflag, Load_Sel, RB_En, Jump_Flag, FlagEn, Copy_Sel : std_logic;
 
 begin
 
@@ -150,7 +152,9 @@ port map
     ALU_Control => ALU_Ctrl,
     RegisterBank_EN => RB_En,
     Jump_Flag => Jump_Flag,
-    Jump_Address => Jump_Adrs
+    Jump_Address => Jump_Adrs,
+    FlagEn => FlagEn,
+    Copy_Sel => Copy_Sel
 );
 
 PR : Program_ROM_15
@@ -182,9 +186,18 @@ Load_Sel_Mux : Mux_2_way_5
 port map
 (
     A      => ALU_S,
-    B      => Imd_val,
+    B      => Copy_Sel_Mux_out,
     Sel    => Load_Sel,
     Output => Load_Sel_Mux_out
+);
+
+Copy_Sel_Mux : Mux_2_way_5
+port map
+(
+    A      => Imd_val,
+    B      => mux851_out,
+    Sel    => Copy_Sel,
+    Output => Copy_Sel_Mux_out
 );
 
 Mux85_0 : Mux_8_way_5
@@ -203,7 +216,7 @@ Mux85_0 : Mux_8_way_5
   EN  => '1',
   Y   => mux850_out
   );
-
+  
 Mux85_1 : Mux_8_way_5
     port
     map
@@ -239,9 +252,11 @@ port map
     D(2) => ALU_O,
     D(1) => ALU_Z,
     D(0) => ALU_N,
-    En    => '1',
+    En    => FlagEn,
     Clk   => Clk,
     Reset => PC_Reset,
+    Q(4) => open,
+    Q(3) => open,
     Q(2) => Oflag,
     Q(1) => Zflag,
     Q(0) => Nflag
@@ -273,5 +288,17 @@ port map
     Sel    => Jump_Flag,
     Output => PC_Mux_out
 );
+
+Out0 <= Out_0;
+Out1 <= Out_1;
+Out2 <= Out_2;
+Out3 <= Out_3;
+Out4 <= Out_4;
+Out5 <= Out_5;
+Out6 <= Out_6;
+Out7 <= Out_7;
+Negative <= Nflag;
+Zero <= Zflag;
+Overflow <= Oflag;
 
 end Behavioral;
