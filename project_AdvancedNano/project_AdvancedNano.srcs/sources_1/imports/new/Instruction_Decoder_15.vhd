@@ -33,28 +33,53 @@ component Mux_4_to_1
   );
 end component;
 
-signal Mux_out, Reg_check : std_logic;
+component Mux_2_way_3 is
+   port
+   (
+     A      : in std_logic_vector(2 downto 0);
+     B      : in std_logic_vector(2 downto 0);
+     Sel    : in std_logic;
+     Output : out std_logic_vector(2 downto 0)
+   );
+ end component;
+
+signal Mux_out, Reg_check, Exchange : std_logic;
 
 begin
 
-    Reg_check <= NOT(Reg1_Check(0)OR Reg1_Check(1)OR Reg1_Check(2) OR Reg1_Check(3));
+    Reg_check <= NOT(Reg1_Check(0)OR Reg1_Check(1)OR Reg1_Check(2) OR Reg1_Check(3) OR Reg1_Check(4));
+    Exchange <= (not I(13)) and I(12) and I(11);
 
     JumpSel_Mux : Mux_4_to_1
     port map(
-       D(3) => '1',
-       D(2) => Reg_check,
-       D(1) => Zflag_in,
-       D(0) => Nflag_in,
+       D(0) => '1',
+       D(1) => Reg_check,
+       D(2) => Zflag_in,
+       D(3) => Nflag_in,
        Sel  =>  I(12 downto 11),
        Output => Mux_out
     );
+    
+    RegSel_1 : Mux_2_way_3
+    port map(
+        A => I(10 downto 8),
+        B => I( 7 downto 5),
+        Sel => Exchange,
+        Output => Reg_1
+    );
+    
+    RegSel_2 : Mux_2_way_3
+        port map(
+            A => I( 7 downto 5),
+            B => I(10 downto 8),
+            Sel => Exchange,
+            Output => Reg_2
+        );
 
     Load_Sel <= I(14);
     ALU_Control <= I(13 downto 11);
     
-    Reg_1 <= I(10 downto 8);
     Reg_EN <= I(10 downto 8);
-    Reg_2 <= I(7 downto 5);
     Imd_Val <= I(4 downto 0);
     
     RegisterBank_EN <= NOT(I(14) AND (I(13) OR I(12)));

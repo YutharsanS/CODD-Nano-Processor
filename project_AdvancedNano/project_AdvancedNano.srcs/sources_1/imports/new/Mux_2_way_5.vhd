@@ -59,4 +59,11 @@ begin
         Output => Output(3)
     );
 
+    MUX_4 : Mux_2_way_1
+    port map(
+        A => A(4),
+        B => B(4),
+        Sel => Sel,
+        Output => Output(4)
+    );
 end Behavioral;

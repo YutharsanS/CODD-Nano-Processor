@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Comp_1.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Comp_1
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM_15

@@ -133,7 +133,7 @@ component Register_5
  signal ALU_S, M : std_logic_vector(4 downto 0);
  signal reg1, reg2, ALU_Ctrl, Reg_EN : std_logic_vector(2 downto 0);
  signal I : std_logic_vector(14 downto 0);
- signal ALU_O, ALU_Z, ALU_N, Oflag, Zflag, Nflag, Load_Sel, RB_En, Jump_Flag, FlagEn, Copy_Sel : std_logic;
+ signal ALU_O, ALU_Z, ALU_N, Oflag, Zflag, Nflag, Load_Sel, RB_En, Jump_Flag, FlagEn, Copy_Sel, open0, open1 : std_logic;
 
 begin
 
@@ -255,8 +255,8 @@ port map
     En    => FlagEn,
     Clk   => Clk,
     Reset => PC_Reset,
-    Q(4) => open,
-    Q(3) => open,
+    Q(4) => open1,
+    Q(3) => open0,
     Q(2) => Oflag,
     Q(1) => Zflag,
     Q(0) => Nflag

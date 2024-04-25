@@ -9,6 +9,7 @@ entity Display is
     RB_Reset        : in std_logic;
     Overflow     : out std_logic;
     Zero         : out std_logic;
+    Negative     : out std_logic;
     LED_out      : out std_logic_vector (4 downto 0);
     Dot          : out std_logic;
     Anode_7Seg   : out std_logic_vector (3 downto 0);
@@ -31,7 +32,8 @@ architecture Behavioral of Display is
       Out6     : out std_logic_vector(4 downto 0);
       Out7     : out std_logic_vector(4 downto 0);
       Zero     : out std_logic;
-      Overflow : out std_logic
+      Overflow : out std_logic;
+      Negative : out std_logic
     );
   end component;
   
@@ -74,7 +76,8 @@ begin
     Out6     => Out6,
     Out7     => Out7,
     Zero     => Zero,
-    Overflow => Overflow
+    Overflow => Overflow,
+    Negative => Negative
   );
   
   slow_clk_inst : Slow_Clk

@@ -28,17 +28,17 @@ begin
 
     MUX_0 : Mux_2_way_1
     port map(
-        A => D(3),
-        B => D(2),
-        Sel => Sel(1),
+        A => D(0),
+        B => D(1),
+        Sel => Sel(0),
         Output => MUX_0_out
     );
     
     MUX_1 : Mux_2_way_1
         port map(
-            A => D(1),
-            B => D(0),
-            Sel => Sel(1),
+            A => D(2),
+            B => D(3),
+            Sel => Sel(0),
             Output => MUX_1_out
     );
     
@@ -46,7 +46,7 @@ begin
         port map(
             A => MUX_0_out,
             B => MUX_1_out,
-            Sel => Sel(0),
+            Sel => Sel(1),
             Output => Output
         );
 

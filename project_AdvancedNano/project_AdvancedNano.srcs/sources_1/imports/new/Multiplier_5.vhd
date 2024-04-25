@@ -57,7 +57,7 @@ begin
 
   NA4B0 <= a(4) nand b(0);  A3B0 <= a(3) and b(0);  A2B0 <= a(2) and b(0);  A1B0 <= a(1) and b(0);  A0B0 <= a(0) and b(0);
   NA4B1 <= a(4) nand b(1);  A3B1 <= a(3) and b(1);  A2B1 <= a(2) and b(1);  A1B1 <= a(1) and b(1);  A0B1 <= a(0) and b(1);
-  NA4B2 <= a(4) nand b(2);  A3B2 <= a(3) and b(2);  A2B2 <= a(2) and b(2);  A1B2 <= a(1) and b(0);  A0B2 <= a(0) and b(2);
+  NA4B2 <= a(4) nand b(2);  A3B2 <= a(3) and b(2);  A2B2 <= a(2) and b(2);  A1B2 <= a(1) and b(2);  A0B2 <= a(0) and b(2);
   NA4B3 <= a(4) nand b(3);  A3B3 <= a(3) and b(3);  A2B3 <= a(2) and b(3);  A1B3 <= a(1) and b(3);  A0B3 <= a(0) and b(3);
   A4B4  <= a(4) and b(4);  NA3B4 <= a(3) nand b(4);  NA2B4 <= a(2) nand b(4);  NA1B4 <= a(1) nand b(4);  NA0B4 <= a(0) nand b(4);
 
