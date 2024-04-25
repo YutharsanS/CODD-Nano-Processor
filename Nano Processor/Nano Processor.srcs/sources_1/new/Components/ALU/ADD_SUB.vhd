@@ -66,7 +66,7 @@ FA_3 : FA
     
 C_out <= FA3_C;
 V <= FA3_C XOR FA2_C;
-Z <= not(S0 or S1 or S2 or S3 or FA3_C);
+Z <= not(S0 or S1 or S2 or S3);
 
 S(0) <= S0;
 S(1) <= S1;

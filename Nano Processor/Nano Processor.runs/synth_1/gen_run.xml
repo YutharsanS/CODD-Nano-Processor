@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1713765044">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1714041505">
   <File Type="PA-TCL" Name="Display.tcl"/>
   <File Type="REPORTS-TCL" Name="Display_reports.tcl"/>
   <File Type="RDS-RDS" Name="Display.vds"/>
+  <File Type="RDS-UTIL" Name="Display_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Display_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Display.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>

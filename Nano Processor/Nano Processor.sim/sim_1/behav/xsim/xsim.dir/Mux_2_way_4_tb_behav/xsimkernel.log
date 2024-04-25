@@ -1,0 +1,4 @@
+Running: xsim.dir/Mux_2_way_4_tb_behav/xsimk.exe -simmode gui -wdb Mux_2_way_4_tb_behav.wdb -simrunnum 0 -socket 8496
+Design successfully loaded
+Design Loading Memory Usage: 6644 KB (Peak: 6644 KB)
+Design Loading CPU Usage: 15 ms

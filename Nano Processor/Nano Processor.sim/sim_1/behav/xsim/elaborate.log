@@ -1,6 +1,6 @@
 Vivado Simulator 2018.1
 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto f859496e7c524f28a834218ab560eb00 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Slow_Clk_tb_behav xil_defaultlib.Slow_Clk_tb -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto f859496e7c524f28a834218ab560eb00 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot LUT_16_7_tb_behav xil_defaultlib.LUT_16_7_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,6 +10,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
-Compiling architecture behavioral of entity xil_defaultlib.slow_clk_tb
-Built simulation snapshot Slow_Clk_tb_behav
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.LUT_16_7 [lut_16_7_default]
+Compiling architecture tb of entity xil_defaultlib.lut_16_7_tb
+Built simulation snapshot LUT_16_7_tb_behav

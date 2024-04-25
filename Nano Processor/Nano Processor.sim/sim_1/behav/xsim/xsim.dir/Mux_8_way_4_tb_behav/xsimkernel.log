@@ -1,0 +1,4 @@
+Running: xsim.dir/Mux_8_way_4_tb_behav/xsimk.exe -simmode gui -wdb Mux_8_way_4_tb_behav.wdb -simrunnum 0 -socket 8570
+Design successfully loaded
+Design Loading Memory Usage: 7172 KB (Peak: 7172 KB)
+Design Loading CPU Usage: 0 ms
