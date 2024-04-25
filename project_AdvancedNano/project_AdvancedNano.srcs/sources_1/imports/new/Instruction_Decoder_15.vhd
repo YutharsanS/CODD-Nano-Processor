@@ -18,7 +18,8 @@ entity Instruction_Decoder_15 is
       Jump_Flag : out std_logic;
       Jump_Address : out std_logic_vector(4 downto 0);
       FlagEn : out std_logic;
-      Copy_Sel : out std_logic
+      Copy_Sel : out std_logic;
+      PC_En : out std_logic
     );
 end Instruction_Decoder_15;
 
@@ -89,5 +90,6 @@ begin
     FlagEn <= not I(14);
     Copy_Sel <= I(11);
     Jump_Address <= I(4 downto 0);
+    PC_En <= not(I(14) and (not I(13)) and I(12) and (not I(11)));
 
 end Behavioral;

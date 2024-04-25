@@ -39,7 +39,8 @@ component Instruction_Decoder_15
       Jump_Flag : out std_logic;
       Jump_Address : out std_logic_vector(4 downto 0);
       FlagEn : out std_logic;
-      Copy_Sel : out std_logic
+      Copy_Sel : out std_logic;
+      PC_En : out std_logic
     );
 end component;
 
@@ -133,7 +134,7 @@ component Register_5
  signal ALU_S, M : std_logic_vector(4 downto 0);
  signal reg1, reg2, ALU_Ctrl, Reg_EN : std_logic_vector(2 downto 0);
  signal I : std_logic_vector(14 downto 0);
- signal ALU_O, ALU_Z, ALU_N, Oflag, Zflag, Nflag, Load_Sel, RB_En, Jump_Flag, FlagEn, Copy_Sel, open0, open1 : std_logic;
+ signal ALU_O, ALU_Z, ALU_N, Oflag, Zflag, Nflag, Load_Sel, RB_En, Jump_Flag, FlagEn, Copy_Sel, open0, open1, PC_En : std_logic;
 
 begin
 
@@ -154,7 +155,8 @@ port map
     Jump_Flag => Jump_Flag,
     Jump_Address => Jump_Adrs,
     FlagEn => FlagEn,
-    Copy_Sel => Copy_Sel
+    Copy_Sel => Copy_Sel,
+    PC_En => PC_En
 );
 
 PR : Program_ROM_15
@@ -266,7 +268,7 @@ PC : Register_5
 port map
 (
     D => PC_Mux_out,
-    En    => '1',
+    En    => PC_En,
     Clk   => Clk,
     Reset => PC_Reset,
     Q => M

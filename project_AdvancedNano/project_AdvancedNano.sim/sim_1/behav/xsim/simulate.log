@@ -1,0 +1,12 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Error: Test case 4: Reg_1 incorrect
+Time: 40 ns  Iteration: 0  Process: /Instruction_Decoder_15_tb/line__72  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd
+Error: Test case 4: Reg_2 incorrect
+Time: 40 ns  Iteration: 0  Process: /Instruction_Decoder_15_tb/line__72  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd
+Error: Test case 5: ALU_Control incorrect
+Time: 50 ns  Iteration: 0  Process: /Instruction_Decoder_15_tb/line__72  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd
+Error: Test case 7: Jump_Flag incorrect
+Time: 70 ns  Iteration: 0  Process: /Instruction_Decoder_15_tb/line__72  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd
+Note: All test cases passed
+Time: 90 ns  Iteration: 0  Process: /Instruction_Decoder_15_tb/line__72  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd
