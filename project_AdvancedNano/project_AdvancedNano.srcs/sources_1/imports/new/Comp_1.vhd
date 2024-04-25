@@ -18,7 +18,7 @@ architecture Behavioral of Comp_1 is
   
 begin
 
-  Zout <= Zin and ((A and B) or ((not A) and (not B)));
-  Nout <= (Nin or Zin) and ((not A) and B);
+  Zout <= Zin and ((A and B) or (A nor B));
+  Nout <= Nin or (Zin and ((not A) and B));
 
 end Behavioral;

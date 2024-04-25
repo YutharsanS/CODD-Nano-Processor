@@ -16,7 +16,9 @@ entity Instruction_Decoder_15 is
       ALU_Control : out std_logic_vector(2 downto 0);
       RegisterBank_EN : out std_logic;
       Jump_Flag : out std_logic;
-      Jump_Address : out std_logic_vector(4 downto 0)
+      Jump_Address : out std_logic_vector(4 downto 0);
+      FlagEn : out std_logic;
+      Copy_Sel : out std_logic
     );
 end Instruction_Decoder_15;
 
@@ -59,5 +61,8 @@ begin
     
     Jump_Flag <= Mux_out AND I(14) AND I(13);
 
+    FlagEn <= not I(14);
+    Copy_Sel <= I(11);
+    Jump_Address <= I(4 downto 0);
 
 end Behavioral;

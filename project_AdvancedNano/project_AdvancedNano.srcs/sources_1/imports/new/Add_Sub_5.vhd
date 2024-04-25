@@ -24,7 +24,7 @@ end component;
 
 signal FA0_C, FA1_C, FA2_C, FA3_C, FA4_C : STD_LOGIC;
 signal temp : STD_LOGIC_VECTOR (4 downto 0);
-signal S0, S1, S2, S3, S4 : std_logic;
+signal S0, S1, S2, S3, S4, tempO : std_logic;
 
 begin
 
@@ -75,9 +75,10 @@ FA_4 : FA
     C_out => FA4_C);
     
 C_out <= FA4_C;
-O <= FA4_C XOR FA3_C;
-Z <= not(S0 or S1 or S2 or S3 or S4 or FA3_C);
+tempO <= FA4_C XOR FA3_C;
+Z <=  tempO nor (S0 or S1 or S2 or S3 or S4);
 N <= S4;
+O <= tempO;
 
 S(0) <= S0;
 S(1) <= S1;
