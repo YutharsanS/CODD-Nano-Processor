@@ -15,7 +15,7 @@ begin
     process(Clk_in) begin
         if(rising_edge(Clk_in))then
             count<=count+1;                 --increment counter for each rising edge
-            if (count= 100000000) then               --for simulation purpose
+            if (count= 10) then               --for simulation purpose
                 clk_status<=not(clk_status);--Invert clock signal(it will again invert after another 100M pulse and formed one period)
                 Clk_out<=clk_status;        
                 count<=1;                   --reset counter
