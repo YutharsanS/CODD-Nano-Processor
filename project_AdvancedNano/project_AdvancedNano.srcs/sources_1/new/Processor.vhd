@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity Processor is
-  Port ( 
+  Port (
       PC_Reset : in std_logic;
       RB_Reset : in std_logic;
       Clk      : in std_logic;
@@ -22,8 +22,8 @@ end Processor;
 
 architecture Behavioral of Processor is
 
-component Instruction_Decoder_15 
-    Port 
+component Instruction_Decoder_15
+    Port
     (
       I : in std_logic_vector(14 downto 0);
       Reg1_Check : in std_logic_vector(4 downto 0);
@@ -41,7 +41,7 @@ component Instruction_Decoder_15
     );
 end component;
 
-component Program_ROM_15 
+component Program_ROM_15
     port
     (
      M    : in std_logic_vector(4 downto 0);
@@ -49,7 +49,7 @@ component Program_ROM_15
  );
 end component;
 
-component ALU 
+component ALU
   port
   (
     A    : in std_logic_vector(4 downto 0);
@@ -62,7 +62,7 @@ component ALU
   );
 end component;
 
-component Register_Bank_8 
+component Register_Bank_8
   port
   (
     Data   : in std_logic_vector(4 downto 0);
@@ -81,7 +81,7 @@ component Register_Bank_8
   );
 end component;
 
-component Mux_8_way_5 
+component Mux_8_way_5
   port
     (
         D0      : in std_logic_vector(4 downto 0);
@@ -98,7 +98,7 @@ component Mux_8_way_5
     );
 end component;
 
-component Register_5 
+component Register_5
   port
   (
     D     : in std_logic_vector(4 downto 0);
@@ -108,14 +108,14 @@ component Register_5
     Q     : out std_logic_vector(4 downto 0)
   );
  end component;
-  
- component PC_ADD_5 
-    Port ( 
+
+ component PC_ADD_5
+    Port (
       Adrs : in STD_LOGIC_VECTOR (4 downto 0);
       C_out : out STD_LOGIC;
       S : out STD_LOGIC_VECTOR (4 downto 0));
  end component;
- 
+
  component Mux_2_way_5 is
    port
    (
@@ -125,7 +125,7 @@ component Register_5
      Output : out std_logic_vector(4 downto 0)
    );
  end component;
- 
+
  signal Out_0, Out_1, Out_2, Out_3, Out_4, Out_5, Out_6, Out_7 : std_logic_vector(4 downto 0);
  signal mux850_out, mux851_out, Imd_val, Jump_Adrs, PC_Add_out, PC_Mux_out, Load_Sel_Mux_out : std_logic_vector(4 downto 0);
  signal ALU_S, M : std_logic_vector(4 downto 0);
@@ -203,7 +203,7 @@ Mux85_0 : Mux_8_way_5
   EN  => '1',
   Y   => mux850_out
   );
-  
+
 Mux85_1 : Mux_8_way_5
     port
     map

@@ -9,7 +9,7 @@ entity Display is
     RB_Reset        : in std_logic;
     Overflow     : out std_logic;
     Zero         : out std_logic;
-    LED_out      : out std_logic_vector (3 downto 0);
+    LED_out      : out std_logic_vector (4 downto 0);
     Dot          : out std_logic;
     Anode_7Seg   : out std_logic_vector (3 downto 0);
     Cathode_7Seg : out std_logic_vector (6 downto 0));
@@ -22,14 +22,14 @@ architecture Behavioral of Display is
       PC_Reset : in std_logic;
       RB_Reset : in std_logic;
       Clk      : in std_logic;
-      Out0     : out std_logic_vector(3 downto 0);
-      Out1     : out std_logic_vector(3 downto 0);
-      Out2     : out std_logic_vector(3 downto 0);
-      Out3     : out std_logic_vector(3 downto 0);
-      Out4     : out std_logic_vector(3 downto 0);
-      Out5     : out std_logic_vector(3 downto 0);
-      Out6     : out std_logic_vector(3 downto 0);
-      Out7     : out std_logic_vector(3 downto 0);
+      Out0     : out std_logic_vector(4 downto 0);
+      Out1     : out std_logic_vector(4 downto 0);
+      Out2     : out std_logic_vector(4 downto 0);
+      Out3     : out std_logic_vector(4 downto 0);
+      Out4     : out std_logic_vector(4 downto 0);
+      Out5     : out std_logic_vector(4 downto 0);
+      Out6     : out std_logic_vector(4 downto 0);
+      Out7     : out std_logic_vector(4 downto 0);
       Zero     : out std_logic;
       Overflow : out std_logic
     );
@@ -45,13 +45,13 @@ architecture Behavioral of Display is
   component LUT_16_7
     port
     (
-      address : in std_logic_vector (3 downto 0);
+      address : in std_logic_vector (4 downto 0);
       data    : out std_logic_vector (7 downto 0)
     );
   end component;
 
   -- Instantiate the Nano_Processor component
-  signal Out0, Out1, Out2, Out3, Out4, Out5, Out6, Out7 : std_logic_vector(3 downto 0);
+  signal Out0, Out1, Out2, Out3, Out4, Out5, Out6, Out7 : std_logic_vector(4 downto 0);
 
   signal data : std_logic_vector(7 downto 0);
   
