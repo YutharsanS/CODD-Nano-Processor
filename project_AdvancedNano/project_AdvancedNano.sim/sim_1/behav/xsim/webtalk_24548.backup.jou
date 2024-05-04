@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat May  4 21:43:08 2024
+# Process ID: 24548
+# Current directory: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/xsim.dir/Mux_2_way_5_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/Advanced -notrace

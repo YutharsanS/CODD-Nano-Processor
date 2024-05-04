@@ -167,6 +167,36 @@ begin
         EN_tb <= '1';
         wait for 10 ns;
         assert Y_tb = "10010" report "Test case 8 failed" severity error;
+        
+        -- Test case 9:
+        D0_tb <= "10110";  -- Index1: 220038U (101101101110000110)
+        D1_tb <= "11010";  -- Index2: 220404N (101101110011110100)
+        D2_tb <= "00001";  -- Index3: 220681H (101101111000001001)
+        D3_tb <= "01000";  -- Index4: 220738P (101101111001000010)
+        D4_tb <= "11111";
+        D5_tb <= "00000";
+        D6_tb <= "10101";
+        D7_tb <= "01010";
+        Sel_tb <= "000";
+        EN_tb <= '1';
+        wait for 10 ns;
+        assert Y_tb = "10110" report "Test case 1 failed" severity error;
+
+        -- Test case 2: Select D4 when Sel = "100" and EN = '1'
+        Sel_tb <= "100";
+        wait for 10 ns;
+        assert Y_tb = "11111" report "Test case 2 failed" severity error;
+
+        -- Test case 3: Select D7 when Sel = "111" and EN = '1'
+        Sel_tb <= "111";
+        wait for 10 ns;
+        assert Y_tb = "01010" report "Test case 3 failed" severity error;
+
+        -- Test case 4: Output should be all zeros when EN = '0'
+        EN_tb <= '0';
+        wait for 10 ns;
+        assert Y_tb = "00000" report "Test case 4 failed" severity error;
+
 
         report "All test cases passed";
         wait;
