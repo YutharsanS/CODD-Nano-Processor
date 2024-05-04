@@ -10,3 +10,6 @@ Error: Test case 7: Jump_Flag incorrect
 Time: 70 ns  Iteration: 0  Process: /Instruction_Decoder_15_tb/line__72  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd
 Note: All test cases passed
 Time: 90 ns  Iteration: 0  Process: /Instruction_Decoder_15_tb/line__72  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd
+Comp_5_tb.vhd
+Error: Test case 11 failed
+Time: 930 ns  Iteration: 0  Process: /Comp_5_tb/stim_proc  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Comp_5_tb.vhd

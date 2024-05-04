@@ -1,2 +1,2 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_15_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Multiplier_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Multiplier_5

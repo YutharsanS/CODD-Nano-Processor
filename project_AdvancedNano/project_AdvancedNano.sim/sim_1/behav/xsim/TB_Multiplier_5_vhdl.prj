@@ -34,6 +34,15 @@ vhdl xil_defaultlib  \
 "../../../../project_AdvancedNano.srcs/sim_1/new/TB_Multiplier_5.vhd" \
 "../../../../project_AdvancedNano.srcs/sim_1/new/ALU_tb.vhd" \
 "../../../../project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/Mux_2_way_5_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/AND_5_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/OR_5_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/NOT_5_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/Add_Sub_5_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/Comp_5_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/Mux_8_way_3_tb.vhd" \
+"../../../../project_AdvancedNano.srcs/sim_1/new/Multiplier_5_tb.vhd" \
 
 # Do not sort compile order
 nosort

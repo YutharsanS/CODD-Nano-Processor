@@ -1,35 +1,9 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 04/17/2024 01:28:11 PM
--- Design Name: 
--- Module Name: TB_PC_ADD_5 - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
+
 
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
 
 entity TB_PC_ADD_5 is
 --  Port ( );
@@ -55,22 +29,28 @@ port map
     S => S
 );
     process begin
+    
+    --Index1 : 220038U - 101 10110 11100 00110
+    --Index2 : 220404N - 101 10111 00111 10100
+    --Index3 : 220681H - 101 10111 10000 01001
+    --Index4 : 220738P - 101 10111 10010 00010
+    
         Adrs <= "00000";
         wait for 50ns;
         
-        Adrs <= "00001";
+        Adrs <= "00110";
         wait for 50ns;
         
-        Adrs <= "00011";
-        wait for 50ns;
-        
-        Adrs <= "00100";
-        wait for 50ns;
-                
-        Adrs <= "00101";
-        wait for 50ns;
-                
         Adrs <= "00111";
+        wait for 50ns;
+        
+        Adrs <= "00010";
+        wait for 50ns;
+                
+        Adrs <= "01001";
+        wait for 50ns;
+                
+        Adrs <= "10111";
         wait for 50ns;
         
         Adrs <= "11111";

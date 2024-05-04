@@ -24,15 +24,18 @@ architecture Behavioral of Comp_5 is
     );
   end component;
   signal Z_ins, N_ins : std_logic_vector(3 downto 0);
+  signal Sign_neg_Check, Sign_zero_Check : std_logic;
 begin
 
+  Sign_neg_Check <= A(4) and (not B(4));
+  Sign_zero_Check <= not (A(4) xor B(4));
   Comp4 : Comp_1
   port map 
     (
         A => A(4),
         B => B(4),
-        Zin => '1',
-        Nin => '0',
+        Zin => Sign_zero_Check,
+        Nin => Sign_neg_Check,
         Zout=> Z_ins(3),
         Nout=> N_ins(3)
     );
