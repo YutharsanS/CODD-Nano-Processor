@@ -30,11 +30,17 @@ begin
 
    stim_proc : process
    begin
-       A_tb <= "001";
+
+    --Index1 : 220038U - 101 101 101 110 000 110
+    --Index2 : 220404N - 101 101 110 011 110 100
+    --Index3 : 220681H - 101 101 111 000 001 001
+    --Index4 : 220738P - 101 101 111 001 000 010
+
+       A_tb <= "100";
        B_tb <= "110";
        Sel_tb <= '0';
        wait for 100 ns;
-       assert Output_tb = "001" report "Selection failed for 0" severity error;
+       assert Output_tb = "100" report "Selection failed for 0" severity error;
 
        Sel_tb <= '1';
        wait for 100 ns;
@@ -52,11 +58,11 @@ begin
        wait for 100 ns;
        assert Output_tb = "000" report "Selection failed for same number" severity error;
 
-       A_tb <= "111";
-       B_tb <= "010";
+       A_tb <= "011";
+       B_tb <= "101";
        Sel_tb <= '1';
        wait for 100 ns;
-       assert Output_tb = "010" report "Selection failed for random test" severity error;
+       assert Output_tb = "101" report "Selection failed for random test" severity error;
 
        wait;
    end process;
