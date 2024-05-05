@@ -1,0 +1,6 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Error: Test case 8 failed
+Time: 80 ns  Iteration: 0  Process: /Mux_8_way_5_tb/line__57  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_8_way_3_tb.vhd
+Note: All test cases passed
+Time: 120 ns  Iteration: 0  Process: /Mux_8_way_5_tb/line__57  File: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_8_way_3_tb.vhd
