@@ -87,7 +87,7 @@ begin
   lut_inst : LUT_16_7
   port
   map (
-  address => Out1,
+  address => Out7,
   data    => data
   );
 

@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Mon May  6 13:09:44 2024
+| Date         : Mon May  6 16:06:58 2024
 | Host         : Yutharsan-Ideapad running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Display_utilization_synth.rpt -pb Display_utilization_synth.pb
 | Design       : Display
@@ -30,8 +30,8 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |   37 |     0 |     20800 |  0.18 |
-|   LUT as Logic          |   37 |     0 |     20800 |  0.18 |
+| Slice LUTs*             |   42 |     0 |     20800 |  0.20 |
+|   LUT as Logic          |   42 |     0 |     20800 |  0.20 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
 | Slice Registers         |   49 |     0 |     41600 |  0.12 |
 |   Register as Flip Flop |   49 |     0 |     41600 |  0.12 |
@@ -151,14 +151,14 @@ Table of Contents
 +----------+------+---------------------+
 | FDRE     |   49 |        Flop & Latch |
 | OBUF     |   18 |                  IO |
-| LUT5     |   17 |                 LUT |
-| LUT6     |   11 |                 LUT |
-| LUT4     |    8 |                 LUT |
+| LUT5     |   16 |                 LUT |
+| LUT6     |   13 |                 LUT |
+| LUT4     |   12 |                 LUT |
+| LUT3     |    8 |                 LUT |
 | CARRY4   |    8 |          CarryLogic |
-| LUT3     |    6 |                 LUT |
 | IBUF     |    3 |                  IO |
-| LUT2     |    2 |                 LUT |
-| LUT1     |    1 |                 LUT |
+| LUT1     |    2 |                 LUT |
+| LUT2     |    1 |                 LUT |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 
