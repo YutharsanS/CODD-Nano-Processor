@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon May  6 13:22:08 2024
+# Process ID: 19984
+# Current directory: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7928 C:\Users\Yutharsan\Documents\GitHub\CODD-Nano-Processor\project_AdvancedNano\project_AdvancedNano.xpr
+# Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/vivado.log
+# Journal file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.xpr
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top Processor [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+reset_run synth_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top TB_Processor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode DisplayOnly [current_project]
+launch_simulation
+source TB_Processor.tcl
+close_sim
+launch_simulation
+source TB_Processor.tcl
+close_sim
+launch_simulation
+source TB_Processor.tcl
+close_sim
+launch_simulation
+source TB_Processor.tcl
+close_sim
+launch_simulation
+source TB_Processor.tcl
+close_sim
+launch_simulation
+source TB_Processor.tcl
+close_sim
+launch_simulation
+source TB_Processor.tcl
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+create_run synth_2 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports}
+current_run [get_runs synth_2]
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+wait_on_run impl_2
+reset_run impl_2 -prev_step 
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+wait_on_run impl_2
+close_sim

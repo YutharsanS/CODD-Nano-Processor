@@ -55,7 +55,7 @@ begin
   port
   map (
   D   => Data,
-  En  => d_out(0),
+  En  => '0',
   Clk => Clk,
   Reset => Reset,
   Q   => Out0

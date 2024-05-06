@@ -2,13 +2,12 @@
 # Webtalk v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Sat May  4 21:53:12 2024
-# Process ID: 24072
-# Current directory: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim
-# Command line: wbtcv.exe -mode batch -source E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/xsim.dir/Mux_2_way_5_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/webtalk.log
-# Journal file: E:/Advanced Nano Processor_final/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim\webtalk.jou
+# Start of session at: Mon May  6 13:27:58 2024
+# Process ID: 17440
+# Current directory: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/xsim.dir/TB_Processor_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim\webtalk.jou
 #-----------------------------------------------------------
-source E:/Advanced -notrace
-couldn't read file "E:/Advanced": no such file or directory
-INFO: [Common 17-206] Exiting Webtalk at Sat May  4 21:53:12 2024...
+source C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/xsim.dir/TB_Processor_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon May  6 13:28:00 2024...

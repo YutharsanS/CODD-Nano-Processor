@@ -183,7 +183,7 @@ begin
       D4   => andS,
       D5   => orS,
       D6   => notS,
-      D7   => "00000",
+      D7   => A,
       Sel  => Ctrl,
       EN   => '1',
       Y    => S
