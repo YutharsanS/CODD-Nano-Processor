@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Thu Apr 25 16:08:30 2024
-# Process ID: 5192
+# Start of session at: Mon May  6 13:08:29 2024
+# Process ID: 19228
 # Current directory: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1
 # Command line: vivado.exe -log Display.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Display.tcl
 # Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1/Display.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 13424 
+INFO: Helper process launched with PID 17364 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 358.574 ; gain = 99.746
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:11 . Memory (MB): peak = 358.988 ; gain = 100.352
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'Display' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Display.vhd:18]
 INFO: [Synth 8-3491] module 'Processor' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:4' bound to instance 'component_inst' of component 'Processor' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Display.vhd:62]
@@ -47,15 +47,15 @@ INFO: [Synth 8-3491] module 'Mux_2_way_1' declared at 'C:/Users/Yutharsan/Docume
 INFO: [Synth 8-256] done synthesizing module 'Mux_2_way_3' (6#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_2_way_3.vhd:14]
 INFO: [Synth 8-3491] module 'ADD_3' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:4' bound to instance 'Add3' of component 'ADD_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:173]
 INFO: [Synth 8-638] synthesizing module 'ADD_3' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:12]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_0' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:27]
-INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:33]
-INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:25' bound to instance 'HA_0' of component 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:46]
-INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:32]
-INFO: [Synth 8-256] done synthesizing module 'HA' (7#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:32]
-INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:25' bound to instance 'HA_1' of component 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:53]
-INFO: [Synth 8-256] done synthesizing module 'FA' (8#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:33]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_1' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:35]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_2' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:4' bound to instance 'FA_0' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:12]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:4' bound to instance 'HA_0' of component 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'HA' (7#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:11]
+INFO: [Synth 8-3491] module 'HA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/HA.vhd:4' bound to instance 'HA_1' of component 'HA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'FA' (8#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:12]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:4' bound to instance 'FA_1' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:35]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:4' bound to instance 'FA_2' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:43]
 INFO: [Synth 8-256] done synthesizing module 'ADD_3' (9#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_3.vhd:12]
 INFO: [Synth 8-3491] module 'Instruction_Decoder_12' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd:4' bound to instance 'Ins_Dec' of component 'Instruction_Decoder_12' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:184]
 INFO: [Synth 8-638] synthesizing module 'Instruction_Decoder_12' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Instruction_Decoder_12.vhd:21]
@@ -65,10 +65,10 @@ INFO: [Synth 8-638] synthesizing module 'Program_ROM_8' [C:/Users/Yutharsan/Docu
 INFO: [Synth 8-256] done synthesizing module 'Program_ROM_8' (11#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Program_ROM_8.vhd:13]
 INFO: [Synth 8-3491] module 'ADD_SUB' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:4' bound to instance 'AU' of component 'ADD_SUB' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:209]
 INFO: [Synth 8-638] synthesizing module 'ADD_SUB' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:14]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_0' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:35]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_1' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:43]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_2' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:51]
-INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:25' bound to instance 'FA_3' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:59]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:4' bound to instance 'FA_0' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:35]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:4' bound to instance 'FA_1' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:4' bound to instance 'FA_2' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:51]
+INFO: [Synth 8-3491] module 'FA' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/FA.vhd:4' bound to instance 'FA_3' of component 'FA' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:59]
 INFO: [Synth 8-256] done synthesizing module 'ADD_SUB' (12#1) [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/ALU/ADD_SUB.vhd:14]
 INFO: [Synth 8-3491] module 'Mux_8_way_4' declared at 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:4' bound to instance 'Mux84_0' of component 'Mux_8_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Processor.vhd:222]
 INFO: [Synth 8-638] synthesizing module 'Mux_8_way_4' [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sources_1/new/Components/Mux/Mux_8_way_4.vhd:21]
@@ -124,9 +124,8 @@ WARNING: [Synth 8-3917] design Display has port Anode_7Seg[3] driven by constant
 WARNING: [Synth 8-3917] design Display has port Anode_7Seg[2] driven by constant 1
 WARNING: [Synth 8-3917] design Display has port Anode_7Seg[1] driven by constant 1
 WARNING: [Synth 8-3917] design Display has port Anode_7Seg[0] driven by constant 0
-WARNING: [Synth 8-3331] design ADD_3 has unconnected port C_in
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 414.496 ; gain = 155.668
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 414.766 ; gain = 156.129
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -139,10 +138,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 414.496 ; gain = 155.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 414.766 ; gain = 156.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:12 . Memory (MB): peak = 414.496 ; gain = 155.668
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:13 . Memory (MB): peak = 414.766 ; gain = 156.129
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -158,29 +157,29 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 745.680 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 746.504 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 745.680 ; gain = 486.852
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 746.504 ; gain = 487.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 745.680 ; gain = 486.852
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 746.504 ; gain = 487.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 745.680 ; gain = 486.852
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 746.504 ; gain = 487.867
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5544] ROM "program_ROM" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
 INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5544] ROM "sevenSegment_ROM" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:36 . Memory (MB): peak = 745.680 ; gain = 486.852
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:37 . Memory (MB): peak = 746.504 ; gain = 487.867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -298,40 +297,24 @@ WARNING: [Synth 8-3917] design Display has port Anode_7Seg[3] driven by constant
 WARNING: [Synth 8-3917] design Display has port Anode_7Seg[2] driven by constant 1
 WARNING: [Synth 8-3917] design Display has port Anode_7Seg[1] driven by constant 1
 WARNING: [Synth 8-3917] design Display has port Anode_7Seg[0] driven by constant 0
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register7/Reg_3/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register6/Reg_3/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_3/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register4/Reg_3/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register7/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register6/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register4/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register7/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register6/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register4/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register7/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register6/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register4/Reg_0/DFF_0/Q_reg_reg )
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register4/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register6/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register7/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register4/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register6/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register7/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register4/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register6/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register7/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register4/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register6/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register7/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register1/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register1/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register1/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register1/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:38 . Memory (MB): peak = 745.680 ; gain = 486.852
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:40 . Memory (MB): peak = 746.504 ; gain = 487.867
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -343,13 +326,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:55 . Memory (MB): peak = 745.680 ; gain = 486.852
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:57 . Memory (MB): peak = 746.504 ; gain = 487.867
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:55 . Memory (MB): peak = 760.023 ; gain = 501.195
+Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:58 . Memory (MB): peak = 762.105 ; gain = 503.469
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -360,16 +343,16 @@ Report RTL Partitions:
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register3/Reg_0/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register3/Reg_2/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register3/Reg_1/DFF_0/Q_reg_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register3/Reg_3/DFF_0/Q_reg_reg )
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
-WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register3/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_0/DFF_0/Q_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_2/DFF_0/Q_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_1/DFF_0/Q_reg_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\component_inst/RB/Register5/Reg_3/DFF_0/Q_reg_reg )
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_0/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_1/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_2/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
+WARNING: [Synth 8-3332] Sequential element (component_inst/RB/Register5/Reg_3/DFF_0/Q_reg_reg) is unused and will be removed from module Display.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:55 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:58 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -393,7 +376,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -406,7 +389,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -418,25 +401,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -454,12 +437,12 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |     8|
-|3     |LUT1   |     2|
-|4     |LUT2   |     1|
-|5     |LUT3   |     8|
-|6     |LUT4   |    13|
-|7     |LUT5   |    16|
-|8     |LUT6   |    14|
+|3     |LUT1   |     1|
+|4     |LUT2   |     2|
+|5     |LUT3   |     6|
+|6     |LUT4   |     8|
+|7     |LUT5   |    17|
+|8     |LUT6   |    11|
 |9     |FDRE   |    49|
 |10    |IBUF   |     3|
 |11    |OBUF   |    18|
@@ -469,52 +452,52 @@ Report Instance Areas:
 +------+-----------------+------------------+------+
 |      |Instance         |Module            |Cells |
 +------+-----------------+------------------+------+
-|1     |top              |                  |   133|
-|2     |  component_inst |Processor         |    57|
-|3     |    PC           |Program_Counter_3 |    27|
-|4     |      Reg0       |Register_3        |    27|
-|5     |        Reg_0    |Register_1_24     |     2|
-|6     |          DFF_0  |D_FF_29           |     2|
-|7     |        Reg_1    |Register_1_25     |    19|
-|8     |          DFF_0  |D_FF_28           |    19|
-|9     |        Reg_2    |Register_1_26     |     6|
-|10    |          DFF_0  |D_FF_27           |     6|
-|11    |    RB           |Register_Bank_8   |    30|
-|12    |      Register0  |Register_4        |    14|
-|13    |        Reg_0    |Register_1_16     |     5|
-|14    |          DFF_0  |D_FF_23           |     5|
-|15    |        Reg_1    |Register_1_17     |     2|
-|16    |          DFF_0  |D_FF_22           |     2|
-|17    |        Reg_2    |Register_1_18     |     3|
-|18    |          DFF_0  |D_FF_21           |     3|
-|19    |        Reg_3    |Register_1_19     |     4|
-|20    |          DFF_0  |D_FF_20           |     4|
-|21    |      Register1  |Register_4_0      |    12|
-|22    |        Reg_0    |Register_1_8      |     1|
-|23    |          DFF_0  |D_FF_15           |     1|
-|24    |        Reg_1    |Register_1_9      |     2|
-|25    |          DFF_0  |D_FF_14           |     2|
-|26    |        Reg_2    |Register_1_10     |     2|
-|27    |          DFF_0  |D_FF_13           |     2|
-|28    |        Reg_3    |Register_1_11     |     7|
-|29    |          DFF_0  |D_FF_12           |     7|
-|30    |      Register2  |Register_4_1      |     4|
-|31    |        Reg_0    |Register_1        |     1|
-|32    |          DFF_0  |D_FF_7            |     1|
-|33    |        Reg_1    |Register_1_2      |     1|
-|34    |          DFF_0  |D_FF_6            |     1|
-|35    |        Reg_2    |Register_1_3      |     1|
-|36    |          DFF_0  |D_FF_5            |     1|
-|37    |        Reg_3    |Register_1_4      |     1|
-|38    |          DFF_0  |D_FF              |     1|
+|1     |top              |                  |   124|
+|2     |  component_inst |Processor         |    48|
+|3     |    PC           |Program_Counter_3 |    20|
+|4     |      Reg0       |Register_3        |    20|
+|5     |        Reg_0    |Register_1_24     |     5|
+|6     |          DFF_0  |D_FF_29           |     5|
+|7     |        Reg_1    |Register_1_25     |    10|
+|8     |          DFF_0  |D_FF_28           |    10|
+|9     |        Reg_2    |Register_1_26     |     5|
+|10    |          DFF_0  |D_FF_27           |     5|
+|11    |    RB           |Register_Bank_8   |    28|
+|12    |      Register0  |Register_4        |     5|
+|13    |        Reg_0    |Register_1_16     |     1|
+|14    |          DFF_0  |D_FF_23           |     1|
+|15    |        Reg_1    |Register_1_17     |     1|
+|16    |          DFF_0  |D_FF_22           |     1|
+|17    |        Reg_2    |Register_1_18     |     1|
+|18    |          DFF_0  |D_FF_21           |     1|
+|19    |        Reg_3    |Register_1_19     |     2|
+|20    |          DFF_0  |D_FF_20           |     2|
+|21    |      Register2  |Register_4_0      |     6|
+|22    |        Reg_0    |Register_1_8      |     3|
+|23    |          DFF_0  |D_FF_15           |     3|
+|24    |        Reg_1    |Register_1_9      |     1|
+|25    |          DFF_0  |D_FF_14           |     1|
+|26    |        Reg_2    |Register_1_10     |     1|
+|27    |          DFF_0  |D_FF_13           |     1|
+|28    |        Reg_3    |Register_1_11     |     1|
+|29    |          DFF_0  |D_FF_12           |     1|
+|30    |      Register7  |Register_4_1      |    17|
+|31    |        Reg_0    |Register_1        |     7|
+|32    |          DFF_0  |D_FF_7            |     7|
+|33    |        Reg_1    |Register_1_2      |     3|
+|34    |          DFF_0  |D_FF_6            |     3|
+|35    |        Reg_2    |Register_1_3      |     3|
+|36    |          DFF_0  |D_FF_5            |     3|
+|37    |        Reg_3    |Register_1_4      |     4|
+|38    |          DFF_0  |D_FF              |     4|
 |39    |  slow_clk_inst  |Slow_Clk          |    54|
 +------+-----------------+------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:56 . Memory (MB): peak = 760.848 ; gain = 502.020
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:59 . Memory (MB): peak = 762.910 ; gain = 504.273
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 59 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:44 . Memory (MB): peak = 760.848 ; gain = 170.836
-Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:57 . Memory (MB): peak = 760.848 ; gain = 502.020
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:46 . Memory (MB): peak = 762.910 ; gain = 172.535
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:01:00 . Memory (MB): peak = 762.910 ; gain = 504.273
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 11 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -524,10 +507,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-139 Infos, 64 Warnings, 0 Critical Warnings and 0 Errors encountered.
+123 Infos, 63 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:01:01 . Memory (MB): peak = 760.848 ; gain = 515.043
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:01:04 . Memory (MB): peak = 762.910 ; gain = 517.320
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.runs/synth_1/Display.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Display_utilization_synth.rpt -pb Display_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 760.848 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Apr 25 16:09:41 2024...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 762.910 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon May  6 13:09:44 2024...

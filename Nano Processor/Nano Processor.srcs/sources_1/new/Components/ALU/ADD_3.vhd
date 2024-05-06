@@ -28,7 +28,7 @@ FA_0 : FA
         port map (               
         A => A(0),               
         B => B(0),             
-        C_in => '0',         
+        C_in => C_in,         
         S => S(0),               
         C_Out => FA0_C );    
            

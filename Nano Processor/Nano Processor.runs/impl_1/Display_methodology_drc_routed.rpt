@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Thu Apr 25 16:11:31 2024
+| Date         : Mon May  6 13:11:36 2024
 | Host         : Yutharsan-Ideapad running 64-bit major release  (build 9200)
 | Command      : report_methodology -file Display_methodology_drc_routed.rpt -pb Display_methodology_drc_routed.pb -rpx Display_methodology_drc_routed.rpx
 | Design       : Display
@@ -69,42 +69,42 @@ Related violations: <none>
 
 TIMING-17#8 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register1/Reg_0/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register2/Reg_0/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#9 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register1/Reg_1/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register2/Reg_1/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#10 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register1/Reg_2/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register2/Reg_2/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#11 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register1/Reg_3/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register2/Reg_3/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#12 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register2/Reg_0/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register7/Reg_0/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#13 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register2/Reg_1/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register7/Reg_1/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#14 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register2/Reg_2/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register7/Reg_2/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#15 Warning
 Non-clocked sequential cell  
-The clock pin component_inst/RB/Register2/Reg_3/DFF_0/Q_reg_reg/C is not reached by a timing clock
+The clock pin component_inst/RB/Register7/Reg_3/DFF_0/Q_reg_reg/C is not reached by a timing clock
 Related violations: <none>
 
 

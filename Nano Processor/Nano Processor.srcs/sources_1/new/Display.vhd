@@ -92,7 +92,7 @@ begin
   );
 
   -- Connect the outputs of Nano_Processor to the Display outputs
-  LED_out      <= Out1;
+  LED_out      <= Out7;
   Dot          <= data(0);
   Anode_7Seg   <= "1110";
   Cathode_7Seg <= data(7 downto 1);

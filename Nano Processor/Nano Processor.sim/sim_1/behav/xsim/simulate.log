@@ -1,0 +1,10 @@
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+Error: Move fails for R1
+Time: 120 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 180 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 240 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 300 ns  Iteration: 0  Process: /TB_Processor/line__70  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.srcs/sim_1/new/TB_Processor.vhd
