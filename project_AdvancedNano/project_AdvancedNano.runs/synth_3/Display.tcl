@@ -57,7 +57,7 @@ read_vhdl -library xil_defaultlib {
   C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/LUT_Display.vhd
   C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Slow_Clk.vhd
   C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Mux_2_way_3.vhd
-  C:/Users/Yutharsan/Desktop/Display.vhd
+  C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
