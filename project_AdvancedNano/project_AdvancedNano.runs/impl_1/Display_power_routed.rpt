@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date             : Mon May  6 14:55:51 2024
+| Date             : Mon May  6 16:52:08 2024
 | Host             : Yutharsan-Ideapad running 64-bit major release  (build 9200)
 | Command          : report_power -file Display_power_routed.rpt -pb Display_power_summary_routed.pb -rpx Display_power_routed.rpx
 | Design           : Display
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.076        |
+| Total On-Chip Power (W)  | 0.084        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
-| Dynamic (W)              | 0.005        |
+| Dynamic (W)              | 0.012        |
 | Device Static (W)        | 0.072        |
 | Effective TJA (C/W)      | 5.0          |
 | Max Ambient (C)          | 84.6         |
@@ -52,17 +52,17 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |      292 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      161 |     20800 |            0.77 |
-|   CARRY4       |    <0.001 |        8 |      8150 |            0.10 |
-|   Register     |    <0.001 |       77 |     41600 |            0.19 |
+| Clocks         |     0.001 |        3 |       --- |             --- |
+| Slice Logic    |    <0.001 |      390 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      195 |     20800 |            0.94 |
+|   CARRY4       |    <0.001 |       16 |      8150 |            0.20 |
+|   Register     |    <0.001 |      123 |     41600 |            0.30 |
 |   BUFG         |     0.000 |        1 |        32 |            3.13 |
 |   Others       |     0.000 |        8 |       --- |             --- |
-| Signals        |    <0.001 |      274 |       --- |             --- |
-| I/O            |     0.002 |       23 |       106 |           21.70 |
+| Signals        |     0.001 |      356 |       --- |             --- |
+| I/O            |     0.009 |       23 |       106 |           21.70 |
 | Static Power   |     0.072 |          |           |                 |
-| Total          |     0.076 |          |           |                 |
+| Total          |     0.084 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,9 +72,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.012 |       0.002 |      0.010 |
+| Vccint    |       1.000 |     0.013 |       0.003 |      0.010 |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |
-| Vcco33    |       3.300 |     0.002 |       0.001 |      0.001 |
+| Vcco33    |       3.300 |     0.003 |       0.002 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -141,7 +141,7 @@ Table of Contents
 +------------------+-----------+
 | Name             | Power (W) |
 +------------------+-----------+
-| Display          |     0.005 |
+| Display          |     0.012 |
 |   component_inst |     0.002 |
 |     Flag_Reg     |    <0.001 |
 |       Reg_0      |    <0.001 |
@@ -150,9 +150,9 @@ Table of Contents
 |         DFF_0    |    <0.001 |
 |       Reg_2      |    <0.001 |
 |         DFF_0    |    <0.001 |
-|     PC           |     0.001 |
-|       Reg_0      |     0.001 |
-|         DFF_0    |     0.001 |
+|     PC           |     0.002 |
+|       Reg_0      |     0.002 |
+|         DFF_0    |     0.002 |
 |       Reg_1      |    <0.001 |
 |         DFF_0    |    <0.001 |
 |       Reg_2      |    <0.001 |

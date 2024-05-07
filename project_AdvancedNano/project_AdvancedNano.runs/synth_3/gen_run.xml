@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_3" LaunchPart="xc7a35tcpg236-1" LaunchTime="1714987467">
+<GenRun Id="synth_3" LaunchPart="xc7a35tcpg236-1" LaunchTime="1714994442">
   <File Type="PA-TCL" Name="Display.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Display_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Display_reports.tcl"/>
@@ -213,6 +213,7 @@
     </File>
     <File Path="$PSRCDIR/sources_1/new/Display.vhd">
       <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
@@ -230,6 +231,12 @@
       </FileInfo>
     </File>
     <File Path="$PSRCDIR/sources_1/new/Mux_2_way_3.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../Desktop/Display.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -255,9 +262,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

@@ -14,6 +14,7 @@ entity Processor is
       Out5     : out std_logic_vector(4 downto 0);
       Out6     : out std_logic_vector(4 downto 0);
       Out7     : out std_logic_vector(4 downto 0);
+      PC_Adrs  : out std_logic_vector(4 downto 0);
       Negative : out std_logic;
       Zero     : out std_logic;
       Overflow : out std_logic
@@ -302,5 +303,6 @@ Out7 <= Out_7;
 Negative <= Nflag;
 Zero <= Zflag;
 Overflow <= Oflag;
+PC_Adrs <= M;
 
 end Behavioral;

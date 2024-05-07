@@ -1,2 +1,92 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_15
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_2_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/OR_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OR_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/AND_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AND_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_8_way_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_2_way_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Multiplier_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_4_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_4_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ADD_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_ADD_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUB
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Program_ROM_15
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_8_way_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/NOT_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NOT_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Comp_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comp_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Comp_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comp_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/LUT_Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Mux_2_way_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Desktop/Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Display
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Register_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_PC_ADD_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_PC_ADD_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Multiplier_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Multiplier_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_2_way_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_15_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/AND_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AND_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/OR_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OR_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/NOT_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NOT_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Add_Sub_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUB_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Comp_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comp_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_8_way_3_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Multiplier_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Register_Bank_8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank_8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Register_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_8_way_1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_1_tb
