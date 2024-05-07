@@ -1,0 +1,893 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon May  6 13:22:08 2024
+# Process ID: 19984
+# Current directory: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7928 C:\Users\Yutharsan\Documents\GitHub\CODD-Nano-Processor\project_AdvancedNano\project_AdvancedNano.xpr
+# Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/vivado.log
+# Journal file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.xpr
+INFO: [Project 1-313] Project file moved from 'E:/Advanced Nano Processor_final/project_AdvancedNano' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 836.199 ; gain = 78.781
+set_property top Processor [current_fileset]
+reset_run synth_1
+set_property top TB_Processor [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Processor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_15
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_2_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/OR_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OR_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/D_FF.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity D_FF
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/AND_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AND_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_8_way_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_2_way_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Multiplier_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Decoder_2_to_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_2_to_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_4_to_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_4_to_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ADD_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PC_ADD_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Decoder_3_to_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Decoder_3_to_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUB
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM_15
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Mux_8_way_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/NOT_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NOT_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Comp_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comp_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Comp_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comp_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Display
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/LUT_Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUT_16_7
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Slow_Clk.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Slow_Clk
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Mux_2_way_3.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Register_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Register_1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_PC_ADD_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_PC_ADD_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Multiplier_5.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Multiplier_5
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/ALU_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Processor
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_2_way_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_2_way_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Instruction_Decoder_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Instruction_Decoder_15_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/AND_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity AND_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/OR_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity OR_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/NOT_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity NOT_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Add_Sub_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ADD_SUB_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Comp_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comp_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_8_way_3_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Multiplier_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Multiplier_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Register_Bank_8_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank_8_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Register_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_5_tb
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/Mux_8_way_1_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Mux_8_way_1_tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 877.480 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '6' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ce97d1bc394846ebaa5467569a02aca2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:85]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:88]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:91]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:94]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:99]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_to_1 [mux_4_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_15 [instruction_decoder_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_15 [program_rom_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_5 [register_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_5 [mux_2_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_5 [mux_8_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_5 [multiplier_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_1 [comp_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_5 [comp_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_5 [and_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_5 [or_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOT_5 [not_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_ADD_5 [pc_add_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_Processor_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim/xsim.dir/TB_Processor_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon May  6 13:26:25 2024...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 877.480 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Move fails for R1
+Time: 240 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Move fails for R2
+Time: 280 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Negation fails for R2
+Time: 320 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 360 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 480 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 600 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:19 . Memory (MB): peak = 895.215 ; gain = 17.734
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 932.578 ; gain = 0.000
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity TB_Processor
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ce97d1bc394846ebaa5467569a02aca2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:85]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:88]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:91]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:94]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:99]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_to_1 [mux_4_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_15 [instruction_decoder_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_15 [program_rom_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_5 [register_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_5 [mux_2_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_5 [mux_8_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_5 [multiplier_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_1 [comp_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_5 [comp_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_5 [and_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_5 [or_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOT_5 [not_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_ADD_5 [pc_add_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_Processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Move fails for R1
+Time: 60 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Move fails for R2
+Time: 70 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Negation fails for R2
+Time: 80 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 90 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 120 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 150 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 932.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM_15
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ce97d1bc394846ebaa5467569a02aca2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:85]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:88]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:91]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:94]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:99]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_to_1 [mux_4_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_15 [instruction_decoder_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_15 [program_rom_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_5 [register_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_5 [mux_2_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_5 [mux_8_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_5 [multiplier_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_1 [comp_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_5 [comp_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_5 [and_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_5 [or_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOT_5 [not_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_ADD_5 [pc_add_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_Processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Move fails for R1
+Time: 60 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Move fails for R2
+Time: 70 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Negation fails for R2
+Time: 80 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 90 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 120 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 150 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 932.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Register_Bank_8
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM_15
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ce97d1bc394846ebaa5467569a02aca2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:85]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:88]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:91]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:94]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:99]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_to_1 [mux_4_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_15 [instruction_decoder_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_15 [program_rom_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_5 [register_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_5 [mux_2_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_5 [mux_8_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_5 [multiplier_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_1 [comp_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_5 [comp_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_5 [and_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_5 [or_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOT_5 [not_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_ADD_5 [pc_add_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_Processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Move fails for R1
+Time: 60 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Move fails for R2
+Time: 70 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Negation fails for R2
+Time: 80 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 90 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 120 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 150 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:11 . Memory (MB): peak = 932.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ALU
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ce97d1bc394846ebaa5467569a02aca2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:85]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:88]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:91]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:94]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:99]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_to_1 [mux_4_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_15 [instruction_decoder_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_15 [program_rom_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_5 [register_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_5 [mux_2_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_5 [mux_8_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_5 [multiplier_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_1 [comp_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_5 [comp_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_5 [and_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_5 [or_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOT_5 [not_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_ADD_5 [pc_add_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_Processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Move fails for R1
+Time: 60 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Move fails for R2
+Time: 70 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Negation fails for R2
+Time: 80 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 90 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 120 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 150 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:09 . Memory (MB): peak = 932.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM_15
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ce97d1bc394846ebaa5467569a02aca2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:85]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:88]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:91]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:94]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:99]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_to_1 [mux_4_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_15 [instruction_decoder_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_15 [program_rom_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_5 [register_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_5 [mux_2_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_5 [mux_8_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_5 [multiplier_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_1 [comp_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_5 [comp_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_5 [and_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_5 [or_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOT_5 [not_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_ADD_5 [pc_add_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_Processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Move fails for R1
+Time: 60 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Move fails for R2
+Time: 70 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Negation fails for R2
+Time: 80 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 90 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 120 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 150 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:10 . Memory (MB): peak = 932.578 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'TB_Processor' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj TB_Processor_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Program_ROM_15
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto ce97d1bc394846ebaa5467569a02aca2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot TB_Processor_behav xil_defaultlib.TB_Processor -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:85]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:88]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:91]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:94]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:99]
+WARNING: [VRFC 10-516] comparison between unequal length arrays always returns FALSE [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:104]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_1 [mux_2_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_4_to_1 [mux_4_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_3 [mux_2_way_3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder_15 [instruction_decoder_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Program_ROM_15 [program_rom_15_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.D_FF [d_ff_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_1 [register_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_5 [register_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Register_Bank_8 [register_bank_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2_way_5 [mux_2_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_1 [mux_8_way_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_way_5 [mux_8_way_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.ADD_SUB [add_sub_default]
+Compiling architecture behavioral of entity xil_defaultlib.Multiplier_5 [multiplier_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_1 [comp_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Comp_5 [comp_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.AND_5 [and_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.OR_5 [or_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.NOT_5 [not_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_ADD_5 [pc_add_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.tb_processor
+Built simulation snapshot TB_Processor_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "TB_Processor_behav -key {Behavioral:sim_1:Functional:TB_Processor} -tclbatch {TB_Processor.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source TB_Processor.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+Error: Move fails for R1
+Time: 60 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Move fails for R2
+Time: 70 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Negation fails for R2
+Time: 80 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 90 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 120 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+Error: Addition fails for R1 = R1 + R2
+Time: 150 ns  Iteration: 0  Process: /TB_Processor/line__73  File: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'TB_Processor_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Mon May  6 14:33:58 2024] Launched synth_1...
+Run output will be captured here: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.runs/synth_1/runme.log
+[Mon May  6 14:33:58 2024] Launched impl_1...
+Run output will be captured here: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.runs/impl_1/runme.log
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Program_ROM_15.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sim_1/new/TB_Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/new/Display.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Register_Bank_8.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/ALU.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Add_Sub_5.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.srcs/sources_1/imports/new/Instruction_Decoder_15.vhd:]
+ERROR: [Common 17-180] Spawn failed: No error
+create_run synth_2 -flow {Vivado Synthesis 2018} -strategy {Vivado Synthesis Defaults} -report_strategy {Vivado Synthesis Default Reports}
+Run is defaulting to srcset: sources_1
+Run is defaulting to constrset: constrs_1
+Run is defaulting to part: xc7k70tfbv676-1
+current_run [get_runs synth_2]
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
+WARNING: [Project 1-153] The current project device 'xc7k70tfbv676-1' does not match with the device on the 'DIGILENTINC.COM:BASYS3:PART0:1.2' board part. A device change to match the device on 'DIGILENTINC.COM:BASYS3:PART0:1.2' board part is being done. Please upgrade the IP in the project via the upgrade_ip command or by selecting Reports => Reports IP Status.
+INFO: [Project 1-152] Project part set to artix7 (xc7a35tcpg236-1)
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+[Mon May  6 14:38:47 2024] Launched synth_2...
+Run output will be captured here: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.runs/synth_2/runme.log
+[Mon May  6 14:38:47 2024] Launched impl_2...
+Run output will be captured here: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.runs/impl_2/runme.log
+reset_run impl_2 -prev_step 
+launch_runs impl_2 -to_step write_bitstream -jobs 8
+[Mon May  6 14:43:40 2024] Launched impl_2...
+Run output will be captured here: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/project_AdvancedNano/project_AdvancedNano.runs/impl_2/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  6 14:51:00 2024...
