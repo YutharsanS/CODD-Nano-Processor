@@ -2,20 +2,20 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Tue May  7 08:48:10 2024
-# Process ID: 18644
+# Start of session at: Tue May  7 08:47:05 2024
+# Process ID: 19032
 # Current directory: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16808 C:\Users\Yutharsan\Documents\GitHub\CODD-Nano-Processor\Nano Processor\Nano Processor.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13004 C:\Users\Yutharsan\Documents\GitHub\CODD-Nano-Processor\Nano Processor\Nano Processor.xpr
 # Log file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/vivado.log
 # Journal file: C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project {C:/Users/Yutharsan/Documents/GitHub/CODD-Nano-Processor/Nano Processor/Nano Processor.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
 update_compile_order -fileset sources_1
-launch_simulation
-source TB_Processor.tcl
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 8
-wait_on_run impl_1
-open_run impl_1
-close_sim
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May  7 08:47:50 2024...
