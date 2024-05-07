@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.1 (win64) Build 2188600 Wed Apr  4 18:40:38 MDT 2018
-| Date         : Mon May  6 16:52:08 2024
+| Date         : Tue May  7 08:43:43 2024
 | Host         : Yutharsan-Ideapad running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file Display_timing_summary_routed.rpt -pb Display_timing_summary_routed.pb -rpx Display_timing_summary_routed.rpx -warn_on_violation
 | Design       : Display

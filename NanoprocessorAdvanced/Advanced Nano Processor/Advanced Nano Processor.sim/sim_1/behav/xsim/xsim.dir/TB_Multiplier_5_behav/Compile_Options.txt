@@ -1,1 +1,0 @@
--wto "d8da168f9e4745db9869e069c9a3680c" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "TB_Multiplier_5_behav" "xil_defaultlib.TB_Multiplier_5" -log "elaborate.log" 
